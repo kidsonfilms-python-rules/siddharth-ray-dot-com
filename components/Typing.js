@@ -8,8 +8,9 @@ class Typing extends React.Component {
       strings: words,
       typeSpeed: 50,
       backSpeed: 50,
+      startDelay: 200,
       loop: true,
-      cursorChar: "|",
+      cursorChar: "▋",
     };
     // this.el refers to the <span> in the render() method
     this.typed = new Typed(this.el, options);
@@ -23,7 +24,7 @@ componentWillUnmount() {
     return (
       <>
         <span
-          style={{ whiteSpace: "pre" }}
+          style={{ whiteSpace: "pre"}}
           ref={(el) => {
             this.el = el;
           }}

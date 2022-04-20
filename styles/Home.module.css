@@ -61,7 +61,7 @@ color: #ABABAB;
 }
 
 .main h2 span:first-child {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   font-weight: 400;
   transition: all 400ms;
   /* color: white;  */

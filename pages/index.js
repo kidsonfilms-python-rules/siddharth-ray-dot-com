@@ -18,7 +18,7 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.stinger}>
           <h1 className={styles.title}>siddharth<span className={styles.primaryColorSpan}>.ray()</span></h1>
-          <h2>> I am a <Typing/></h2>
+          <h2>&gt; I am a <Typing/></h2>
         </div>
       </main>
 
