@@ -1,0 +1,81 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+    background-color: #0D0F14;
+}
+
+.logo {
+    color: var(--primary-color);
+    font-size: 20px;
+}
+
+.linksContainer {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.linksContainer li {
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all 400ms;
+}
+
+.linksContainer li:hover {
+    color: #ABABAB;
+}
+
+.linksContainer li.onPage {
+    color: #ABABAB;
+}
+
+.navContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.socials li {
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all 400ms;
+}
+
+.socials li {
+    color: white;
+    margin-left: 20px;
+}
+
+.socials li:first-child {
+    margin-left: 0px;
+}
+
+.socials li a {
+    color: #ABABAB;
+    transition: all 400ms;
+}
+
+.socials li a:hover {
+    color: var(--primary-color);
+    -webkit-box-shadow: 0px 0px 43px 0.5px rgba(100, 43, 255, 1);
+    -moz-box-shadow: 0px 0px 43px 0.5px rgba(100, 43, 255, 1);
+    box-shadow: 0px 0px 40px 0.25px rgba(100, 43, 255, 1), inset 0px 0px 40px 0.25px rgba(100, 43, 255, 0.18);
+}
