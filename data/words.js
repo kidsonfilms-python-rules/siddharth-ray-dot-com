@@ -2,7 +2,7 @@ const whoamiwords = [
     'Software Developer',
     'Founder',
     'Student',
-    'Film Maker',
+    'Film-maker',
     'Meme'
 ]
 
