@@ -1,0 +1,248 @@
+.container {
+    padding: 0 2rem;
+  }
+  
+  .main {
+    min-height: 100vh;
+    /* padding: 4rem 0; */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .title span {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  .title span:hover,
+  .title span:focus,
+  .title span:active {
+    text-decoration: underline;
+  }
+  
+  .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 3rem;
+  }
+  
+  .title,
+  .description {
+    text-align: left;
+  }
+  
+  .description {
+    margin: 4rem 0;
+    line-height: 1.5;
+    font-size: 1.5rem;
+  }
+  
+  .main h2 {
+    font-weight: 300;
+  font-size: 2rem;
+  color: #ABABAB;
+  }
+  
+  .main h2 span:first-child {
+    /* text-decoration: underline; */
+    font-weight: 400;
+    transition: all 400ms;
+    /* color: white;  */
+  }
+  
+  
+  .code {
+    background: #fafafa;
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+      Bitstream Vera Sans Mono, Courier New, monospace;
+  }
+  
+  .grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+  }
+  
+  .card {
+    margin: 1rem;
+    padding: 1.5rem;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid #afafaf50;
+    border-radius: 10px;
+    transition: all 0.15s ease;
+    min-width: 50vw;
+    /* max-width: 300px; */
+  }
+  
+  .card:hover,
+  .card:focus,
+  .card:active {
+    /* color: var(--primary-color); */
+    border-color: var(--primary-color);
+    background-color: #161725;
+  }
+  
+  .card h2 {
+    margin: 0 0 1rem 0;
+    font-size: 1.5rem;
+  }
+  
+  .card p:not(.learnWhy) {
+    margin: 0;
+    font-size: 1.25rem;
+    line-height: 1.5;
+  }
+  
+  .logo {
+    height: 1em;
+    margin-left: 0.5rem;
+  }
+  
+  @media (max-width: 600px) {
+    .grid {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
+  
+  .primaryColorSpan {
+    color: var(--primary-color);
+  }
+  
+  
+  .stinger {
+    margin: 10vw;
+    transform: translateY(100%);
+    /* background-color: antiquewhite; */
+  }
+
+  .button {
+    display: inline-block;
+    border: 1px solid var(--primary-color);
+    border-radius: 40px;
+    padding: 15px 20px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    color: var(--primary-color);
+    font-weight: 500;
+    transition: all 500ms;
+    background-color: transparent;
+    font-family: 'Source Code Pro';
+  }
+
+  .button:hover {
+      background-color: var(--primary-color);
+      color: white;
+  }
+  .buttonSmol {
+    color: #ABABAB;
+    margin-top: 0px;
+    transition: all 400ms;
+  }
+
+  .buttonSmol:hover {
+    color: white;
+    /* text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px var(--primary-color),
+      0 0 82px var(--primary-color),
+      0 0 92px var(--primary-color),
+      0 0 102px var(--primary-color),
+      0 0 151px var(--primary-color); */
+  }
+
+  .contactForm {
+      flex-direction: column;
+      display: flex;
+  }
+
+  .contactForm input {
+      min-width: 25vw;
+      margin-bottom: 2.5vh;
+      margin-top: 1vh;
+      background-color: transparent;
+      border-style: solid;
+      padding:10px;
+      border-radius: 2px;
+      color: white;
+      font-family: 'Source Code Pro';
+      transition: all 500ms;
+  }
+
+  .contactForm input:focus {
+    outline: none;
+      border-color: var(--primary-color);
+  }
+
+  .contactForm textarea {
+    min-width: 25vw;
+    min-height: 30vh;
+    margin-bottom: 2.5vh;
+    margin-top: 1vh;
+    background-color: transparent;
+    border-style: solid;
+    padding:10px;
+    border-radius: 2px;
+    color: white;
+    font-family: 'Source Code Pro';
+    transition: all 500ms;
+}
+
+.contactForm textarea:focus {
+    outline: none;
+      border-color: var(--primary-color);
+  }
+
+  .contactForm .required {
+      color: rgb(255, 102, 102);
+  }
+
+  .contactInfo {
+      margin-bottom: 5vh;
+  }
+
+  .learnWhy {
+    color: var(--primary-color);
+    font-size: 1rem;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+
+  .learnWhy a {
+    color: #ABABAB;
+    transition: all 400ms;
+  }
+
+  .learnWhy a:hover {
+    color: white;
+  }
+  

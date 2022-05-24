@@ -25,7 +25,7 @@ export default function Footer() {
                 <ul>
                     <li><a href='https://nextjs.org/' target="_blank">Next.js</a></li>
                     <li><a href='https://github.com/mattboldt/typed.js/' target="_blank">typed.js</a></li>
-                    <li><a href='https://github.com/kidsonfilms-python-rules/siddharth-ray-dot-com' target="_blank">view all credits</a></li>
+                    <li><a href='/credits'>view all credits</a></li>
                 </ul>
             </div>
         </footer>

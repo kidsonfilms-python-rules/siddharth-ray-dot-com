@@ -20,5 +20,9 @@ export default {
       }, {
         httpEquiv: 'x-ua-compatible',
         content: 'IE=edge; chrome=1'
-      }],
+      },
+    {
+      httpEquiv: "",
+      content: ""
+    }],
 };

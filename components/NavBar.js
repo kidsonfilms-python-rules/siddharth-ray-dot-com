@@ -4,9 +4,10 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import { useRef, useState } from 'react'
 
-export default function NavBar() {
+export default function NavBar(props) {
     const [menuState, setMenuState] = useState();
     const navContent = useRef();
+    const page = props.page
 
     return (
         <nav className={styles.navbar}>
@@ -30,10 +31,10 @@ export default function NavBar() {
             </a>
             <div className={styles.navContainer} ref={navContent}>
                 <ul className={styles.linksContainer}>
-                    <li className={styles.onPage}><a>is()</a></li>
-                    <li><a>about()</a></li>
-                    <li><a>portfolio()</a></li>
-                    <li><a>contact()</a></li>
+                    <li className={page == "home" ? styles.onPage : ""}><a href="/">home()</a></li>
+                    <li className={page == "about" ? styles.onPage : ""}><a href="/about">about()</a></li>
+                    <li className={page == "portfolio" ? styles.onPage : ""}><a href="/portfolio">portfolio()</a></li>
+                    <li className={page == "contact" ? styles.onPage : ""}><a href="/contact">contact()</a></li>
                 </ul>
                 <ul className={styles.socials}>
                     <li><a href='https://www.linkedin.com/in/the-ray/' target={"_blank"}><FontAwesomeIcon icon={faLinkedinIn} className={styles.icon} /></a></li>
