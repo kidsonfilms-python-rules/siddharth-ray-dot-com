@@ -1,0 +1,85 @@
+.body {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.leftBox {
+    padding: 20px;
+    flex: 1;
+}
+.rightBox {
+    padding: 20px;
+    align-items: right;
+    text-align: center;
+    flex: 1;
+}
+
+.leftBox h1 {
+    background-color: #ff7eee;
+    background: linear-gradient(272.28deg, #FF7EEE 4.34%, #DF49A6 98.7%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  font-size: 60px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: 900;
+}
+
+.leftBox h2 {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.leftBox p {
+    font-weight: 400;
+}
+
+.associatedExperience {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.associatedExperienceText {
+    margin-left: 20px
+}
+
+.associatedExperienceText h3 {
+    margin-bottom: 0px;
+}
+
+.associatedExperienceText p {
+    margin-top: 0px;
+}
+
+.additonalLinks ul {
+    padding: 0;
+}
+
+.additonalLinks ul li {
+    list-style: none;
+}
+
+.leftBox a {
+    color: white;
+    font-weight: 400;
+    transition: all 400ms;
+    /* text-decoration: underline; */
+}
+
+.leftBox a:hover {
+    color: #ABABAB;
+}
+
+.rightBox h1 {
+ font-size: 20px;
+ font-weight: 600;
+}

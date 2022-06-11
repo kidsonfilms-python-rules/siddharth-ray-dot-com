@@ -23,6 +23,18 @@
     font-size: 20px;
 }
 
+.logoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.logoContainer .icon {
+    margin-top: 22.5px;
+    margin-right: 40px;
+}
+
 .linksContainer {
     display: flex;
     flex-direction: row;
@@ -66,7 +78,7 @@
     transition: all 400ms;
 }
 
-.socials .icon {
+.icon {
     font-size: 20px;
 }
 

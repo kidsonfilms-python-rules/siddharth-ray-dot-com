@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Contact.module.css'
-import NavBar from '../components/NavBar'
+import {NavBar} from '../components/NavBar'
 import Footer from '../components/Footer'
 import { useState } from 'react'
 import crypto from 'crypto'
@@ -128,7 +128,7 @@ export default function Contact() {
 
       <main className={styles.main}>
         <div className={styles.card}>
-          <h1><span style={{ color: "var(--primary-color)" }}>Contact</span> Me</h1>
+          <h1>siddharth.<span style={{ color: "var(--primary-color)" }}>contact()</span></h1>
           <div className={styles.contactInfo}>
             <a className={styles.buttonSmol} style={{ cursor: "pointer" }} onClick={handleShowContactInfo}>Show Contact Info</a>
             <br />
@@ -216,7 +216,7 @@ export default function Contact() {
               placeholder="Will you protect the travelers of the night..."
             ></textarea>
             
-            <p className={styles.learnWhy} style={{ fontSize: 14 }}>Maximum 1020 characters. 
+            <p className={styles.learnWhy} style={{ fontSize: 14 }}>Maximum 1020 characters, Markdown Enabled.
             {/* <a>Learn Why.</a> */}
             </p>
 

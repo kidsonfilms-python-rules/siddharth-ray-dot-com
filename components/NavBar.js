@@ -1,10 +1,11 @@
 import styles from '../styles/NavBar.module.css'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import {faAngleLeft} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import { useRef, useState } from 'react'
 
-export default function NavBar(props) {
+export function NavBar(props) {
     const [menuState, setMenuState] = useState();
     const navContent = useRef();
     const page = props.page
@@ -39,6 +40,27 @@ export default function NavBar(props) {
                 <ul className={styles.socials}>
                     <li><a href='https://www.linkedin.com/in/the-ray/' target={"_blank"}><FontAwesomeIcon icon={faLinkedinIn} className={styles.icon} /></a></li>
                     <li><a href='https://github.com/kidsonfilms-python-rules' target={"_blank"}><FontAwesomeIcon icon={faGithub} className={styles.icon} /></a></li>
+                </ul>
+            </div>
+        </nav>
+    )
+}
+
+export function NavBarPortfolio(props) {
+    const [menuState, setMenuState] = useState();
+    const navContent = useRef();
+    const page = props.page
+
+    return (
+        <nav className={styles.navbar} style={{paddingLeft: "5vw", background: "transparent", backdropFilter: "none"}}>
+            <div className={styles.logoContainer}>
+            <a href='/portfolio'><FontAwesomeIcon icon={faAngleLeft} className={styles.icon} /></a>
+                <p className={styles.logo} style={{color: "white"}}>back</p>
+            </div>
+            <div className={styles.navContainer} ref={navContent}>
+                <ul className={styles.socials}>
+                    <li><a href='https://www.linkedin.com/in/the-ray/' target={"_blank"}><FontAwesomeIcon icon={faLinkedinIn} className={styles.icon} style={{color: "white"}}/></a></li>
+                    <li><a href='https://github.com/kidsonfilms-python-rules' target={"_blank"}><FontAwesomeIcon icon={faGithub} className={styles.icon} style={{color: "white"}}/></a></li>
                 </ul>
             </div>
         </nav>

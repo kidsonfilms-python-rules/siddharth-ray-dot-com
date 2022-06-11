@@ -1,0 +1,57 @@
+.block {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+}
+
+.timeframeContainer {
+    /* margin-right: auto; */
+    width: max-content;
+    min-width: 15vw;
+}
+
+.timeframeContainer p {
+    width: max-content;
+    color: #ABABAB;
+    margin-top: 4px;
+}
+
+.titleDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    vertical-align: middle;
+    width: 65vw;
+}
+
+.titleDiv p {
+    color: #ABABAB;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.titleDiv h1 {
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.mainBody h2 {
+    font-size: 18px;
+    margin-top: 0;
+    font-style: italic;
+}
+
+.mainBody a {
+    color: #ABABAB;
+    transition: all 500ms;
+}
+
+.mainBody p {
+    font-size: 14;
+}
+
+.mainBody a:hover {
+    color: white;
+}
