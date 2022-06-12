@@ -24,8 +24,8 @@ export default function Footer() {
                 <h4>builtWith()</h4>
                 <ul>
                     <li><a href='https://nextjs.org/' target="_blank">Next.js</a></li>
-                    <li><a href='https://github.com/mattboldt/typed.js/' target="_blank">typed.js</a></li>
                     <li><a href='/credits'>view all credits</a></li>
+                    <li><a href='/licenses'>view all licenses</a></li>
                 </ul>
             </div>
         </footer>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function LinkedInRedirect() {
+export default function GitHubRedirect() {
     const [seconds, setSeconds] = React.useState(5);
     const [error, setError] = React.useState("");
 

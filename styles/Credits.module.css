@@ -1,0 +1,122 @@
+.container {
+    padding: 0 2rem;
+  }
+  
+  .main {
+    /* padding: 4rem 0; */
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    z-index: 1;
+    justify-content: center;
+  }
+
+  .mainLicenses {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    z-index: 1;
+   padding-left: 10vw;
+   padding-right: 10vw;
+  }
+  
+  .footer {
+    display: flex;
+    flex: 1;
+    padding: 2rem 0;
+    border-top: 1px solid #eaeaea;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+  }
+  
+  .title span {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  .title span:hover,
+  .title span:focus,
+  .title span:active {
+    text-decoration: underline;
+  }
+  
+  .title {
+    margin: 0;
+    line-height: 1.15;
+    font-size: 3rem;
+  }
+  
+  .title,
+  .description {
+    text-align: left;
+  }
+  
+  .description {
+    margin: 4rem 0;
+    line-height: 1.5;
+    font-size: 1.5rem;
+  }
+  
+  .main h2 {
+    font-weight: 300;
+  font-size: 2rem;
+  color: #ABABAB;
+  }
+  
+  .main h2 span:first-child {
+    /* text-decoration: underline; */
+    font-weight: 400;
+    transition: all 400ms;
+    /* color: white;  */
+  }
+  
+  .main h2 span:first-child:hover {
+    color: white;
+      text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px var(--primary-color),
+        0 0 82px var(--primary-color),
+        0 0 92px var(--primary-color),
+        0 0 102px var(--primary-color),
+        0 0 151px var(--primary-color);
+  }
+  
+  .code {
+    background: #fafafa;
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+      Bitstream Vera Sans Mono, Courier New, monospace;
+  }
+  
+  .grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 800px;
+  }
+  
+  .terminal {
+    background-color: black;
+    width: 75vw;
+    height: 100vh;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    color: rgb(0, 255, 0);
+  }
+
+  .main a {
+    font-weight: bold;
+  }
