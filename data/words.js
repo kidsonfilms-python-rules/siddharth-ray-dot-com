@@ -4,7 +4,7 @@ const whoamiwords = [
     'Student',
     'Profesional Googler',
     'Film-maker',
-    'Meme'
+    'Memer'
 ]
 
 export default whoamiwords;
