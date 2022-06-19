@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import {NavBar} from '../components/NavBar'
+import { NavBar } from '../components/NavBar'
 import Footer from '../components/Footer'
 import Typing from '../components/Typing'
 import { Controller, Scene } from 'react-scrollmagic'
@@ -22,12 +22,17 @@ export default function Home() {
           <h2>&gt; I am a <Typing /></h2>
         </div>
 
-<div style={{height: "250px"}}></div>
+        <div style={{ marginTop: "250px", marginBottom: "50px" }}>
         <Controller>
-          <Scene duration={250}>
-            <h1>Sticky Example</h1>
+          <Scene>
+            <div style={{ textAlign: 'center' }}>
+              <h1 >The Homepage is under construction</h1>
+              <p>Check out the other pages for now :)</p>
+            </div>
           </Scene>
         </Controller>
+        </div>
+        
       </main>
 
       <Footer />

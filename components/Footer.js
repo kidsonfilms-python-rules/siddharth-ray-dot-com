@@ -18,7 +18,7 @@ export default function Footer() {
                 <p className={styles.bigtextthing}><span>siddharthray</span>.com</p>
                 <a href='https://github.com/kidsonfilms-python-rules/siddharth-ray-dot-com' target="_blank">view source code</a>
                 </div>
-                <p className={styles.copyright}>© 2022 Siddharth Ray</p>
+                <p className={styles.copyright}>© {new Date().getFullYear()} Siddharth Ray</p>
             </div>
             <div className={styles.right}>
                 <h4>builtWith()</h4>
