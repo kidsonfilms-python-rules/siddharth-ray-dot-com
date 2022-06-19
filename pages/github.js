@@ -17,7 +17,7 @@ export default function GitHubRedirect() {
 
     return (
         <>
-            <h1>Redirecting to Siddharth Ray's GitHub in {seconds} seconds...</h1>
+            <h1>Redirecting to Siddharth Ray&apos;s GitHub in {seconds} seconds...</h1>
             <p>If it does not redirect, <a href="https://github.com/kidsonfilms-python-rules/" style={{fontWeight: "bold"}}>click here</a> <br />
                 <span style={{ color: 'red' }}>{error}</span>
             </p>

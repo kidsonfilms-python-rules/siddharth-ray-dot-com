@@ -1,9 +1,10 @@
 import styles from '../styles/NavBar.module.css'
 import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
-import {faAngleLeft} from '@fortawesome/free-solid-svg-icons'
+import { faAngleLeft } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import { useRef, useState } from 'react'
+import Link from 'next/link'
 
 export function NavBar(props) {
     const [menuState, setMenuState] = useState();
@@ -15,7 +16,7 @@ export function NavBar(props) {
             <div className={styles.logoContainer}>
                 <p className={styles.logo}>siddharth.ray()</p>
             </div>
-            <a href='#' className={styles.hamburger} onClick={() => {
+            <Link href='#' className={styles.hamburger} onClick={() => {
                 console.log("clicked lol");
                 setMenuState(!menuState);
                 if (menuState) {
@@ -26,20 +27,22 @@ export function NavBar(props) {
 
                 }
             }}>
-                <span className={styles.bar}></span>
-                <span className={styles.bar}></span>
-                <span className={styles.bar}></span>
-            </a>
+                <div>
+                    <span className={styles.bar}></span>
+                    <span className={styles.bar}></span>
+                    <span className={styles.bar}></span>
+                </div>
+            </Link>
             <div className={styles.navContainer} ref={navContent}>
                 <ul className={styles.linksContainer}>
-                    <li className={page == "home" ? styles.onPage : ""}><a href="/">home()</a></li>
-                    <li className={page == "about" ? styles.onPage : ""}><a href="/about">about()</a></li>
-                    <li className={page == "portfolio" ? styles.onPage : ""}><a href="/portfolio">portfolio()</a></li>
-                    <li className={page == "contact" ? styles.onPage : ""}><a href="/contact">contact()</a></li>
+                    <li className={page == "home" ? styles.onPage : ""}><Link href="/">home()</Link></li>
+                    <li className={page == "about" ? styles.onPage : ""}><Link href="/about">about()</Link></li>
+                    <li className={page == "portfolio" ? styles.onPage : ""}><Link href="/portfolio">portfolio()</Link></li>
+                    <li className={page == "contact" ? styles.onPage : ""}><Link href="/contact">contact()</Link></li>
                 </ul>
                 <ul className={styles.socials}>
-                    <li><a href='https://www.linkedin.com/in/the-ray/' target={"_blank"}><FontAwesomeIcon icon={faLinkedinIn} className={styles.icon} /></a></li>
-                    <li><a href='https://github.com/kidsonfilms-python-rules' target={"_blank"}><FontAwesomeIcon icon={faGithub} className={styles.icon} /></a></li>
+                    <li><Link href='https://www.linkedin.com/in/the-ray/' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedinIn} className={styles.icon} /></Link></li>
+                    <li><Link href='https://github.com/kidsonfilms-python-rules' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className={styles.icon} /></Link></li>
                 </ul>
             </div>
         </nav>
@@ -52,15 +55,15 @@ export function NavBarPortfolio(props) {
     const page = props.page
 
     return (
-        <nav className={styles.navbar} style={{paddingLeft: "5vw", background: "transparent", backdropFilter: "none"}}>
+        <nav className={styles.navbar} style={{ paddingLeft: "5vw", background: "transparent", backdropFilter: "none" }}>
             <div className={styles.logoContainer}>
-            <a href='/portfolio'><FontAwesomeIcon icon={faAngleLeft} className={styles.icon} /></a>
-                <p className={styles.logo} style={{color: "white"}}>back</p>
+                <Link href='/portfolio'><FontAwesomeIcon icon={faAngleLeft} className={styles.icon} /></Link>
+                <p className={styles.logo} style={{ color: "white" }}>back</p>
             </div>
             <div className={styles.navContainer} ref={navContent}>
                 <ul className={styles.socials}>
-                    <li><a href='https://www.linkedin.com/in/the-ray/' target={"_blank"}><FontAwesomeIcon icon={faLinkedinIn} className={styles.icon} style={{color: "white"}}/></a></li>
-                    <li><a href='https://github.com/kidsonfilms-python-rules' target={"_blank"}><FontAwesomeIcon icon={faGithub} className={styles.icon} style={{color: "white"}}/></a></li>
+                    <li><a href='https://www.linkedin.com/in/the-ray/' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLinkedinIn} className={styles.icon} style={{ color: "white" }} /></a></li>
+                    <li><a href='https://github.com/kidsonfilms-python-rules' target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} className={styles.icon} style={{ color: "white" }} /></a></li>
                 </ul>
             </div>
         </nav>

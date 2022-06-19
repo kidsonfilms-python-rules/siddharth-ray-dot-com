@@ -1,9 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Credits.module.css'
 import { NavBar } from '../components/NavBar'
 import Footer from '../components/Footer'
-import Typed from 'typed.js'
 import React from 'react'
 
 export default function Licenses() {
@@ -24,7 +22,7 @@ export default function Licenses() {
                 <div>
 
                     <hr />
-                    <p>The following software may be included in this product: @fortawesome/fontawesome-common-types. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/@fortawesome/fontawesome-common-types" target="_blank">https://www.npmjs.com/package/@fortawesome/fontawesome-common-types</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: @fortawesome/fontawesome-common-types. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/@fortawesome/fontawesome-common-types" target="_blank" rel="noreferrer">https://www.npmjs.com/package/@fortawesome/fontawesome-common-types</a>. This software contains the following license and notice below:</p>
                     <p>Fonticons, Inc. (https://fontawesome.com)<br />
                         --------------------------------------------------------------------------------
 
@@ -50,7 +48,7 @@ export default function Licenses() {
                         packaged as web and desktop font files.
 
                         Copyright (c) 2022 Fonticons, Inc. (https://fontawesome.com)
-                        with Reserved Font Name: "Font Awesome".
+                        with Reserved Font Name: &quot;Font Awesome&quot;.
 
                         This Font Software is licensed under the SIL Open Font License, Version 1.1.
                         This license is copied below, and is also available with a FAQ at:
@@ -76,22 +74,22 @@ export default function Licenses() {
                         to any document created using the fonts or their derivatives.
 
                         DEFINITIONS
-                        "Font Software" refers to the set of files released by the Copyright
+                        &quot;Font Software&quot; refers to the set of files released by the Copyright
                         Holder(s) under this license and clearly marked as such. This may
                         include source files, build scripts and documentation.
 
-                        "Reserved Font Name" refers to any names specified as such after the
+                        &quot;Reserved Font Name&quot; refers to any names specified as such after the
                         copyright statement(s).
 
-                        "Original Version" refers to the collection of Font Software components as
+                        &quot;Original Version&quot; refers to the collection of Font Software components as
                         distributed by the Copyright Holder(s).
 
-                        "Modified Version" refers to any derivative made by adding to, deleting,
+                        &quot;Modified Version&quot; refers to any derivative made by adding to, deleting,
                         or substituting — in part or in whole — any of the components of the
                         Original Version, by changing formats or by porting the Font Software to a
                         new environment.
 
-                        "Author" refers to any designer, engineer, programmer, technical
+                        &quot;Author&quot; refers to any designer, engineer, programmer, technical
                         writer or other person who contributed to the Font Software.
 
                         PERMISSION & CONDITIONS
@@ -132,7 +130,7 @@ export default function Licenses() {
                         not met.
 
                         DISCLAIMER
-                        THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+                        THE FONT SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,
                         EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
                         MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
                         OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
@@ -152,7 +150,7 @@ export default function Licenses() {
                         Copyright 2022 Fonticons, Inc.
 
                         Permission is hereby granted, free of charge, to any person obtaining a copy of
-                        this software and associated documentation files (the "Software"), to deal in the
+                        this software and associated documentation files (the &quot;Software&quot;), to deal in the
                         Software without restriction, including without limitation the rights to use, copy,
                         modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
                         and to permit persons to whom the Software is furnished to do so, subject to the
@@ -161,7 +159,7 @@ export default function Licenses() {
                         The above copyright notice and this permission notice shall be included in all
                         copies or substantial portions of the Software.
 
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+                        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
                         INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
                         PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
                         HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
@@ -174,11 +172,11 @@ export default function Licenses() {
 
                         Attribution is required by MIT, SIL OFL, and CC BY licenses. Downloaded Font
                         Awesome Free files already contain embedded comments with sufficient
-                        attribution, so you shouldn't need to do anything additional when using these
+                        attribution, so you shouldn&apos;t need to do anything additional when using these
                         files normally.
 
-                        We've kept attribution comments terse, so we ask that you do not actively work
-                        to remove them from files, especially code. They're a great way for folks to
+                        We&apos;ve kept attribution comments terse, so we ask that you do not actively work
+                        to remove them from files, especially code. They&apos;re a great way for folks to
                         learn about Font Awesome.
 
                         --------------------------------------------------------------------------------
@@ -191,7 +189,7 @@ export default function Licenses() {
                         to represent the company, product, or service to which they refer.**
                     </p>
                     <hr />
-                    <p>The following software may be included in this product: @fortawesome/fontawesome-svg-core. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/@fortawesome/fontawesome-svg-core" target="_blank">https://www.npmjs.com/package/@fortawesome/fontawesome-svg-core</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: @fortawesome/fontawesome-svg-core. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/@fortawesome/fontawesome-svg-core" target="_blank" rel="noreferrer">https://www.npmjs.com/package/@fortawesome/fontawesome-svg-core</a>. This software contains the following license and notice below:</p>
                     <p>Fonticons, Inc. (https://fontawesome.com)<br />
                         --------------------------------------------------------------------------------
 
@@ -217,7 +215,7 @@ export default function Licenses() {
                         packaged as web and desktop font files.
 
                         Copyright (c) 2022 Fonticons, Inc. (https://fontawesome.com)
-                        with Reserved Font Name: "Font Awesome".
+                        with Reserved Font Name: &quot;Font Awesome&quot;.
 
                         This Font Software is licensed under the SIL Open Font License, Version 1.1.
                         This license is copied below, and is also available with a FAQ at:
@@ -243,22 +241,22 @@ export default function Licenses() {
                         to any document created using the fonts or their derivatives.
 
                         DEFINITIONS
-                        "Font Software" refers to the set of files released by the Copyright
+                        &quot;Font Software&quot; refers to the set of files released by the Copyright
                         Holder(s) under this license and clearly marked as such. This may
                         include source files, build scripts and documentation.
 
-                        "Reserved Font Name" refers to any names specified as such after the
+                        &quot;Reserved Font Name&quot; refers to any names specified as such after the
                         copyright statement(s).
 
-                        "Original Version" refers to the collection of Font Software components as
+                        &quot;Original Version&quot; refers to the collection of Font Software components as
                         distributed by the Copyright Holder(s).
 
-                        "Modified Version" refers to any derivative made by adding to, deleting,
+                        &quot;Modified Version&quot; refers to any derivative made by adding to, deleting,
                         or substituting — in part or in whole — any of the components of the
                         Original Version, by changing formats or by porting the Font Software to a
                         new environment.
 
-                        "Author" refers to any designer, engineer, programmer, technical
+                        &quot;Author&quot; refers to any designer, engineer, programmer, technical
                         writer or other person who contributed to the Font Software.
 
                         PERMISSION & CONDITIONS
@@ -299,7 +297,7 @@ export default function Licenses() {
                         not met.
 
                         DISCLAIMER
-                        THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+                        THE FONT SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,
                         EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
                         MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
                         OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
@@ -319,7 +317,7 @@ export default function Licenses() {
                         Copyright 2022 Fonticons, Inc.
 
                         Permission is hereby granted, free of charge, to any person obtaining a copy of
-                        this software and associated documentation files (the "Software"), to deal in the
+                        this software and associated documentation files (the &quot;Software&quot;), to deal in the
                         Software without restriction, including without limitation the rights to use, copy,
                         modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
                         and to permit persons to whom the Software is furnished to do so, subject to the
@@ -328,7 +326,7 @@ export default function Licenses() {
                         The above copyright notice and this permission notice shall be included in all
                         copies or substantial portions of the Software.
 
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+                        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
                         INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
                         PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
                         HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
@@ -341,11 +339,11 @@ export default function Licenses() {
 
                         Attribution is required by MIT, SIL OFL, and CC BY licenses. Downloaded Font
                         Awesome Free files already contain embedded comments with sufficient
-                        attribution, so you shouldn't need to do anything additional when using these
+                        attribution, so you shouldn&apos;t need to do anything additional when using these
                         files normally.
 
-                        We've kept attribution comments terse, so we ask that you do not actively work
-                        to remove them from files, especially code. They're a great way for folks to
+                        We&apos;ve kept attribution comments terse, so we ask that you do not actively work
+                        to remove them from files, especially code. They&apos;re a great way for folks to
                         learn about Font Awesome.
 
                         --------------------------------------------------------------------------------
@@ -358,7 +356,7 @@ export default function Licenses() {
                         to represent the company, product, or service to which they refer.**
                     </p>
                     <hr />
-                    <p>The following software may be included in this product: @fortawesome/free-brands-svg-icons. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons" target="_blank">https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: @fortawesome/free-brands-svg-icons. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons" target="_blank" rel="noreferrer">https://www.npmjs.com/package/@fortawesome/free-brands-svg-icons</a>. This software contains the following license and notice below:</p>
                     <p>Fonticons, Inc. (https://fontawesome.com)<br />
                         --------------------------------------------------------------------------------
 
@@ -384,7 +382,7 @@ export default function Licenses() {
                         packaged as web and desktop font files.
 
                         Copyright (c) 2022 Fonticons, Inc. (https://fontawesome.com)
-                        with Reserved Font Name: "Font Awesome".
+                        with Reserved Font Name: &quot;Font Awesome&quot;.
 
                         This Font Software is licensed under the SIL Open Font License, Version 1.1.
                         This license is copied below, and is also available with a FAQ at:
@@ -410,22 +408,22 @@ export default function Licenses() {
                         to any document created using the fonts or their derivatives.
 
                         DEFINITIONS
-                        "Font Software" refers to the set of files released by the Copyright
+                        &quot;Font Software&quot; refers to the set of files released by the Copyright
                         Holder(s) under this license and clearly marked as such. This may
                         include source files, build scripts and documentation.
 
-                        "Reserved Font Name" refers to any names specified as such after the
+                        &quot;Reserved Font Name&quot; refers to any names specified as such after the
                         copyright statement(s).
 
-                        "Original Version" refers to the collection of Font Software components as
+                        &quot;Original Version&quot; refers to the collection of Font Software components as
                         distributed by the Copyright Holder(s).
 
-                        "Modified Version" refers to any derivative made by adding to, deleting,
+                        &quot;Modified Version&quot; refers to any derivative made by adding to, deleting,
                         or substituting — in part or in whole — any of the components of the
                         Original Version, by changing formats or by porting the Font Software to a
                         new environment.
 
-                        "Author" refers to any designer, engineer, programmer, technical
+                        &quot;Author&quot; refers to any designer, engineer, programmer, technical
                         writer or other person who contributed to the Font Software.
 
                         PERMISSION & CONDITIONS
@@ -466,7 +464,7 @@ export default function Licenses() {
                         not met.
 
                         DISCLAIMER
-                        THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+                        THE FONT SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,
                         EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
                         MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
                         OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
@@ -486,7 +484,7 @@ export default function Licenses() {
                         Copyright 2022 Fonticons, Inc.
 
                         Permission is hereby granted, free of charge, to any person obtaining a copy of
-                        this software and associated documentation files (the "Software"), to deal in the
+                        this software and associated documentation files (the &quot;Software&quot;), to deal in the
                         Software without restriction, including without limitation the rights to use, copy,
                         modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
                         and to permit persons to whom the Software is furnished to do so, subject to the
@@ -495,7 +493,7 @@ export default function Licenses() {
                         The above copyright notice and this permission notice shall be included in all
                         copies or substantial portions of the Software.
 
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+                        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
                         INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
                         PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
                         HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
@@ -508,11 +506,11 @@ export default function Licenses() {
 
                         Attribution is required by MIT, SIL OFL, and CC BY licenses. Downloaded Font
                         Awesome Free files already contain embedded comments with sufficient
-                        attribution, so you shouldn't need to do anything additional when using these
+                        attribution, so you shouldn&apos;t need to do anything additional when using these
                         files normally.
 
-                        We've kept attribution comments terse, so we ask that you do not actively work
-                        to remove them from files, especially code. They're a great way for folks to
+                        We&apos;ve kept attribution comments terse, so we ask that you do not actively work
+                        to remove them from files, especially code. They&apos;re a great way for folks to
                         learn about Font Awesome.
 
                         --------------------------------------------------------------------------------
@@ -525,7 +523,7 @@ export default function Licenses() {
                         to represent the company, product, or service to which they refer.**
                     </p>
                     <hr />
-                    <p>The following software may be included in this product: @fortawesome/free-solid-svg-icons. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons" target="_blank">https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: @fortawesome/free-solid-svg-icons. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons" target="_blank" rel="noreferrer">https://www.npmjs.com/package/@fortawesome/free-solid-svg-icons</a>. This software contains the following license and notice below:</p>
                     <p>Fonticons, Inc. (https://fontawesome.com)<br />
                         --------------------------------------------------------------------------------
 
@@ -551,7 +549,7 @@ export default function Licenses() {
                         packaged as web and desktop font files.
 
                         Copyright (c) 2022 Fonticons, Inc. (https://fontawesome.com)
-                        with Reserved Font Name: "Font Awesome".
+                        with Reserved Font Name: &quot;Font Awesome&quot;.
 
                         This Font Software is licensed under the SIL Open Font License, Version 1.1.
                         This license is copied below, and is also available with a FAQ at:
@@ -577,22 +575,22 @@ export default function Licenses() {
                         to any document created using the fonts or their derivatives.
 
                         DEFINITIONS
-                        "Font Software" refers to the set of files released by the Copyright
+                        &quot;Font Software&quot; refers to the set of files released by the Copyright
                         Holder(s) under this license and clearly marked as such. This may
                         include source files, build scripts and documentation.
 
-                        "Reserved Font Name" refers to any names specified as such after the
+                        &quot;Reserved Font Name&quot; refers to any names specified as such after the
                         copyright statement(s).
 
-                        "Original Version" refers to the collection of Font Software components as
+                        &quot;Original Version&quot; refers to the collection of Font Software components as
                         distributed by the Copyright Holder(s).
 
-                        "Modified Version" refers to any derivative made by adding to, deleting,
+                        &quot;Modified Version&quot; refers to any derivative made by adding to, deleting,
                         or substituting — in part or in whole — any of the components of the
                         Original Version, by changing formats or by porting the Font Software to a
                         new environment.
 
-                        "Author" refers to any designer, engineer, programmer, technical
+                        &quot;Author&quot; refers to any designer, engineer, programmer, technical
                         writer or other person who contributed to the Font Software.
 
                         PERMISSION & CONDITIONS
@@ -633,7 +631,7 @@ export default function Licenses() {
                         not met.
 
                         DISCLAIMER
-                        THE FONT SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+                        THE FONT SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,
                         EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF
                         MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
                         OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE
@@ -653,7 +651,7 @@ export default function Licenses() {
                         Copyright 2022 Fonticons, Inc.
 
                         Permission is hereby granted, free of charge, to any person obtaining a copy of
-                        this software and associated documentation files (the "Software"), to deal in the
+                        this software and associated documentation files (the &quot;Software&quot;), to deal in the
                         Software without restriction, including without limitation the rights to use, copy,
                         modify, merge, publish, distribute, sublicense, and/or sell copies of the Software,
                         and to permit persons to whom the Software is furnished to do so, subject to the
@@ -662,7 +660,7 @@ export default function Licenses() {
                         The above copyright notice and this permission notice shall be included in all
                         copies or substantial portions of the Software.
 
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+                        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
                         INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
                         PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT
                         HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
@@ -675,11 +673,11 @@ export default function Licenses() {
 
                         Attribution is required by MIT, SIL OFL, and CC BY licenses. Downloaded Font
                         Awesome Free files already contain embedded comments with sufficient
-                        attribution, so you shouldn't need to do anything additional when using these
+                        attribution, so you shouldn&apos;t need to do anything additional when using these
                         files normally.
 
-                        We've kept attribution comments terse, so we ask that you do not actively work
-                        to remove them from files, especially code. They're a great way for folks to
+                        We&apos;ve kept attribution comments terse, so we ask that you do not actively work
+                        to remove them from files, especially code. They&apos;re a great way for folks to
                         learn about Font Awesome.
 
                         --------------------------------------------------------------------------------
@@ -692,12 +690,12 @@ export default function Licenses() {
                         to represent the company, product, or service to which they refer.**
                     </p>
                     <hr />
-                    <p>The following software may be included in this product: js-tokens. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/js-tokens" target="_blank">https://www.npmjs.com/package/js-tokens</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: js-tokens. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/js-tokens" target="_blank" rel="noreferrer">https://www.npmjs.com/package/js-tokens</a>. This software contains the following license and notice below:</p>
                     <p>The MIT License (MIT)<br />
                         Copyright (c) 2014, 2015, 2016, 2017, 2018 Simon Lydell
 
                         Permission is hereby granted, free of charge, to any person obtaining a copy
-                        of this software and associated documentation files (the "Software"), to deal
+                        of this software and associated documentation files (the &quot;Software&quot;), to deal
                         in the Software without restriction, including without limitation the rights
                         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
                         copies of the Software, and to permit persons to whom the Software is
@@ -706,7 +704,7 @@ export default function Licenses() {
                         The above copyright notice and this permission notice shall be included in
                         all copies or substantial portions of the Software.
 
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
                         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
                         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
                         AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -715,12 +713,12 @@ export default function Licenses() {
                         THE SOFTWARE.
                     </p>
                     <hr />
-                    <p>The following software may be included in this product: loose-envify. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/loose-envify" target="_blank">https://www.npmjs.com/package/loose-envify</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: loose-envify. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/loose-envify" target="_blank" rel="noreferrer">https://www.npmjs.com/package/loose-envify</a>. This software contains the following license and notice below:</p>
                     <p>The MIT License (MIT)<br />
                         Copyright (c) 2015 Andres Suarez &#60;zertosh@gmail.com&#62;
 
                         Permission is hereby granted, free of charge, to any person obtaining a copy
-                        of this software and associated documentation files (the "Software"), to deal
+                        of this software and associated documentation files (the &quot;Software&quot;), to deal
                         in the Software without restriction, including without limitation the rights
                         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
                         copies of the Software, and to permit persons to whom the Software is
@@ -729,7 +727,7 @@ export default function Licenses() {
                         The above copyright notice and this permission notice shall be included in
                         all copies or substantial portions of the Software.
 
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
                         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
                         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
                         AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -738,12 +736,12 @@ export default function Licenses() {
                         THE SOFTWARE.
                     </p>
                     <hr />
-                    <p>The following software may be included in this product: object-assign. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/object-assign" target="_blank">https://www.npmjs.com/package/object-assign</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: object-assign. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/object-assign" target="_blank" rel="noreferrer">https://www.npmjs.com/package/object-assign</a>. This software contains the following license and notice below:</p>
                     <p>The MIT License (MIT)<br />
                         Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
 
                         Permission is hereby granted, free of charge, to any person obtaining a copy
-                        of this software and associated documentation files (the "Software"), to deal
+                        of this software and associated documentation files (the &quot;Software&quot;), to deal
                         in the Software without restriction, including without limitation the rights
                         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
                         copies of the Software, and to permit persons to whom the Software is
@@ -752,7 +750,7 @@ export default function Licenses() {
                         The above copyright notice and this permission notice shall be included in
                         all copies or substantial portions of the Software.
 
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
                         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
                         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
                         AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -761,12 +759,12 @@ export default function Licenses() {
                         THE SOFTWARE.
                     </p>
                     <hr />
-                    <p>The following software may be included in this product: react-is. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/react-is" target="_blank">https://www.npmjs.com/package/react-is</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: react-is. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/react-is" target="_blank" rel="noreferrer">https://www.npmjs.com/package/react-is</a>. This software contains the following license and notice below:</p>
                     <p>MIT License<br />
                         Copyright (c) Facebook, Inc. and its affiliates.
 
                         Permission is hereby granted, free of charge, to any person obtaining a copy
-                        of this software and associated documentation files (the "Software"), to deal
+                        of this software and associated documentation files (the &quot;Software&quot;), to deal
                         in the Software without restriction, including without limitation the rights
                         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
                         copies of the Software, and to permit persons to whom the Software is
@@ -775,7 +773,7 @@ export default function Licenses() {
                         The above copyright notice and this permission notice shall be included in all
                         copies or substantial portions of the Software.
 
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
                         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
                         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
                         AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -784,12 +782,12 @@ export default function Licenses() {
                         SOFTWARE.
                     </p>
                     <hr />
-                    <p>The following software may be included in this product: prop-types. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/prop-types" target="_blank">https://www.npmjs.com/package/prop-types</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: prop-types. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/prop-types" target="_blank" rel="noreferrer">https://www.npmjs.com/package/prop-types</a>. This software contains the following license and notice below:</p>
                     <p>MIT License<br />
                         Copyright (c) 2013-present, Facebook, Inc.
 
                         Permission is hereby granted, free of charge, to any person obtaining a copy
-                        of this software and associated documentation files (the "Software"), to deal
+                        of this software and associated documentation files (the &quot;Software&quot;), to deal
                         in the Software without restriction, including without limitation the rights
                         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
                         copies of the Software, and to permit persons to whom the Software is
@@ -798,7 +796,7 @@ export default function Licenses() {
                         The above copyright notice and this permission notice shall be included in all
                         copies or substantial portions of the Software.
 
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
                         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
                         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
                         AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -807,10 +805,10 @@ export default function Licenses() {
                         SOFTWARE.
                     </p>
                     <hr />
-                    <p>The following software may be included in this product: @fortawesome/react-fontawesome. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/@fortawesome/react-fontawesome" target="_blank">https://www.npmjs.com/package/@fortawesome/react-fontawesome</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: @fortawesome/react-fontawesome. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/@fortawesome/react-fontawesome" target="_blank" rel="noreferrer">https://www.npmjs.com/package/@fortawesome/react-fontawesome</a>. This software contains the following license and notice below:</p>
                     <p>Copyright 2018 Fonticons, Inc.<br />
                         Permission is hereby granted, free of charge, to any person obtaining a copy of
-                        this software and associated documentation files (the "Software"), to deal in
+                        this software and associated documentation files (the &quot;Software&quot;), to deal in
                         the Software without restriction, including without limitation the rights to
                         use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
                         of the Software, and to permit persons to whom the Software is furnished to do
@@ -819,7 +817,7 @@ export default function Licenses() {
                         The above copyright notice and this permission notice shall be included in all
                         copies or substantial portions of the Software.
 
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
                         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
                         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
                         AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -828,21 +826,21 @@ export default function Licenses() {
                         SOFTWARE.
                     </p>
                     <hr />
-                    <p>The following software may be included in this product: color-name. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/color-name" target="_blank">https://www.npmjs.com/package/color-name</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: color-name. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/color-name" target="_blank" rel="noreferrer">https://www.npmjs.com/package/color-name</a>. This software contains the following license and notice below:</p>
                     <p>The MIT License (MIT)
                         <br />Copyright (c) 2015 Dmitry Ivanov
 
-                        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+                        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
                         The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
+                        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.</p>
                     <hr />
-                    <p>The following software may be included in this product: color-convert. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/color-convert" target="_blank">https://www.npmjs.com/package/color-convert</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: color-convert. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/color-convert" target="_blank" rel="noreferrer">https://www.npmjs.com/package/color-convert</a>. This software contains the following license and notice below:</p>
                     <p>Copyright (c) 2011-2016 Heather Arthur &#60;fayearthur@gmail.com&#62;<br />
                         Permission is hereby granted, free of charge, to any person obtaining
                         a copy of this software and associated documentation files (the
-                        "Software"), to deal in the Software without restriction, including
+                        &quot;Software&quot;), to deal in the Software without restriction, including
                         without limitation the rights to use, copy, modify, merge, publish,
                         distribute, sublicense, and/or sell copies of the Software, and to
                         permit persons to whom the Software is furnished to do so, subject to
@@ -851,7 +849,7 @@ export default function Licenses() {
                         The above copyright notice and this permission notice shall be
                         included in all copies or substantial portions of the Software.
 
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+                        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND,
                         EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
                         MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
                         NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE
@@ -861,67 +859,67 @@ export default function Licenses() {
 
                     </p>
                     <hr />
-                    <p>The following software may be included in this product: ansi-styles. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/ansi-styles" target="_blank">https://www.npmjs.com/package/ansi-styles</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: ansi-styles. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/ansi-styles" target="_blank" rel="noreferrer">https://www.npmjs.com/package/ansi-styles</a>. This software contains the following license and notice below:</p>
                     <p>MIT License<br />
                         Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
 
-                        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+                        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
                         The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+                        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
                     </p>
                     <hr />
-                    <p>The following software may be included in this product: escape-string-regexp. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/escape-string-regexp" target="_blank">https://www.npmjs.com/package/escape-string-regexp</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: escape-string-regexp. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/escape-string-regexp" target="_blank" rel="noreferrer">https://www.npmjs.com/package/escape-string-regexp</a>. This software contains the following license and notice below:</p>
                     <p>MIT License<br />
                         Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (https://sindresorhus.com)
 
-                        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+                        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
                         The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+                        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
                     </p>
                     <hr />
-                    <p>The following software may be included in this product: has-flag. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/has-flag" target="_blank">https://www.npmjs.com/package/has-flag</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: has-flag. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/has-flag" target="_blank" rel="noreferrer">https://www.npmjs.com/package/has-flag</a>. This software contains the following license and notice below:</p>
                     <p>MIT License<br />
                         Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
 
-                        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+                        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
                         The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+                        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
                     </p>
                     <hr />
-                    <p>The following software may be included in this product: supports-color. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/supports-color" target="_blank">https://www.npmjs.com/package/supports-color</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: supports-color. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/supports-color" target="_blank" rel="noreferrer">https://www.npmjs.com/package/supports-color</a>. This software contains the following license and notice below:</p>
                     <p>MIT License<br />
                         Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
 
-                        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+                        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
                         The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+                        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
                     </p>
                     <hr />
-                    <p>The following software may be included in this product: chalk. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/chalk" target="_blank">https://www.npmjs.com/package/chalk</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: chalk. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/chalk" target="_blank" rel="noreferrer">https://www.npmjs.com/package/chalk</a>. This software contains the following license and notice below:</p>
                     <p>MIT License<br />
                         Copyright (c) Sindre Sorhus &#60;sindresorhus@gmail.com&#62; (sindresorhus.com)
 
-                        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+                        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
                         The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+                        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
                     </p>
                     <hr />
-                    <p>The following software may be included in this product: licenses-list-generator. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/licenses-list-generator" target="_blank">https://www.npmjs.com/package/licenses-list-generator</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: licenses-list-generator. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/licenses-list-generator" target="_blank" rel="noreferrer">https://www.npmjs.com/package/licenses-list-generator</a>. This software contains the following license and notice below:</p>
                     <p>The MIT License (MIT)<br />
                         Copyright (C) 2018 Jacek Wasowski
 
                         Permission is hereby granted, free of charge, to any person obtaining a copy
-                        of this software and associated documentation files (the "Software"), to deal
+                        of this software and associated documentation files (the &quot;Software&quot;), to deal
                         in the Software without restriction, including without limitation the rights
                         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
                         copies of the Software, and to permit persons to whom the Software is
@@ -930,7 +928,7 @@ export default function Licenses() {
                         The above copyright notice and this permission notice shall be included in
                         all copies or substantial portions of the Software.
 
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
                         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
                         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
                         AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -939,12 +937,12 @@ export default function Licenses() {
                         THE SOFTWARE.
                     </p>
                     <hr />
-                    <p>The following software may be included in this product: @next/env. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/@next/env" target="_blank">https://www.npmjs.com/package/@next/env</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: @next/env. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/@next/env" target="_blank" rel="noreferrer">https://www.npmjs.com/package/@next/env</a>. This software contains the following license and notice below:</p>
                     <p>The MIT License (MIT)<br />
                         Copyright (c) 2022 Vercel, Inc.
 
                         Permission is hereby granted, free of charge, to any person obtaining a copy
-                        of this software and associated documentation files (the "Software"), to deal
+                        of this software and associated documentation files (the &quot;Software&quot;), to deal
                         in the Software without restriction, including without limitation the rights
                         to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
                         copies of the Software, and to permit persons to whom the Software is
@@ -953,7 +951,7 @@ export default function Licenses() {
                         The above copyright notice and this permission notice shall be included in all
                         copies or substantial portions of the Software.
 
-                        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                        THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
                         IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
                         FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
                         AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -962,15 +960,15 @@ export default function Licenses() {
                         SOFTWARE.
                     </p>
                     <hr />
-                    <p>The following software may be included in this product: caniuse-lite. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/caniuse-lite" target="_blank">https://www.npmjs.com/package/caniuse-lite</a>. This software contains the following license and notice below:</p>
+                    <p>The following software may be included in this product: caniuse-lite. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/caniuse-lite" target="_blank" rel="noreferrer">https://www.npmjs.com/package/caniuse-lite</a>. This software contains the following license and notice below:</p>
                     <p>Attribution 4.0 International<br />
 =======================================================================
 
-Creative Commons Corporation ("Creative Commons") is not a law firm and
+Creative Commons Corporation (&quot;Creative Commons&quot;) is not a law firm and
 does not provide legal services or legal advice. Distribution of
 Creative Commons public licenses does not create a lawyer-client or
 other relationship. Creative Commons makes its licenses and related
-information available on an "as-is" basis. Creative Commons gives no
+information available on an &quot;as-is&quot; basis. Creative Commons gives no
 warranties regarding its licenses, any material licensed under their
 terms and conditions, or any related information. Creative Commons
 disclaims all liability for damages resulting from their use to the
@@ -1002,7 +1000,7 @@ exhaustive, and do not form part of our licenses.
      Considerations for the public: By using one of our public
      licenses, a licensor grants the public permission to use the
      licensed material under specified terms and conditions. If
-     the licensor's permission is not necessary for any reason--for
+     the licensor&apos;s permission is not necessary for any reason--for
      example, because of any applicable exception or limitation to
      copyright--then that use is not regulated by the license. Our
      licenses grant only permissions under copyright and certain
@@ -1022,7 +1020,7 @@ Creative Commons Attribution 4.0 International Public License
 
 By exercising the Licensed Rights (defined below), You accept and agree
 to be bound by the terms and conditions of this Creative Commons
-Attribution 4.0 International Public License ("Public License"). To the
+Attribution 4.0 International Public License (&quot;Public License&quot;). To the
 extent this Public License may be interpreted as a contract, You are
 granted the Licensed Rights in consideration of Your acceptance of
 these terms and conditions, and the Licensor grants You such rights in
@@ -1042,7 +1040,7 @@ Section 1 -- Definitions.
      Adapted Material is always produced where the Licensed Material is
      synched in timed relation with a moving image.
 
-  b. Adapter's License means the license You apply to Your Copyright
+  b. Adapter&apos;s License means the license You apply to Your Copyright
      and Similar Rights in Your contributions to Adapted Material in
      accordance with the terms and conditions of this Public License.
 
@@ -1218,7 +1216,7 @@ following conditions.
           information required by Section 3(a)(1)(A) to the extent
           reasonably practicable.
 
-       4. If You Share Adapted Material You produce, the Adapter's
+       4. If You Share Adapted Material You produce, the Adapter&apos;s
           License You apply must not prevent recipients of the Adapted
           Material from complying with this Public License.
 
@@ -1348,7 +1346,7 @@ Domain Dedication. Except for the limited purpose of indicating that
 material is shared under a Creative Commons public license or as
 otherwise permitted by the Creative Commons policies published at
 creativecommons.org/policies, Creative Commons does not authorize the
-use of the trademark "Creative Commons" or any other trademark or logo
+use of the trademark &quot;Creative Commons&quot; or any other trademark or logo
 of Creative Commons without its prior written consent including,
 without limitation, in connection with any unauthorized modifications
 to any of its public licenses or any other arrangements,
@@ -1359,12 +1357,12 @@ public licenses.
 Creative Commons may be contacted at creativecommons.org.
 </p>
     <hr/>
-    <p>The following software may be included in this product: nanoid. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/nanoid" target="_blank">https://www.npmjs.com/package/nanoid</a>. This software contains the following license and notice below:</p>
+    <p>The following software may be included in this product: nanoid. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/nanoid" target="_blank" rel="noreferrer">https://www.npmjs.com/package/nanoid</a>. This software contains the following license and notice below:</p>
     <p>The MIT License (MIT)<br/>
 Copyright 2017 Andrey Sitnik &#60;andrey@sitnik.ru&#62;
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
+this software and associated documentation files (the &quot;Software&quot;), to deal in
 the Software without restriction, including without limitation the rights to
 use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
 the Software, and to permit persons to whom the Software is furnished to do so,
@@ -1373,7 +1371,7 @@ subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
 FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
@@ -1381,7 +1379,7 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </p>
     <hr/>
-    <p>The following software may be included in this product: picocolors. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/picocolors" target="_blank">https://www.npmjs.com/package/picocolors</a>. This software contains the following license and notice below:</p>
+    <p>The following software may be included in this product: picocolors. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/picocolors" target="_blank" rel="noreferrer">https://www.npmjs.com/package/picocolors</a>. This software contains the following license and notice below:</p>
     <p>ISC License<br/>
 Copyright (c) 2021 Alexey Raspopov, Kostiantyn Denysov, Anton Verinov
 
@@ -1389,7 +1387,7 @@ Permission to use, copy, modify, and/or distribute this software for any
 purpose with or without fee is hereby granted, provided that the above
 copyright notice and this permission notice appear in all copies.
 
-THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot; AND THE AUTHOR DISCLAIMS ALL WARRANTIES
 WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF
 MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR
 ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
@@ -1398,7 +1396,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
 OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 </p>
     <hr/>
-    <p>The following software may be included in this product: source-map-js. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/source-map-js" target="_blank">https://www.npmjs.com/package/source-map-js</a>. This software contains the following license and notice below:</p>
+    <p>The following software may be included in this product: source-map-js. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/source-map-js" target="_blank" rel="noreferrer">https://www.npmjs.com/package/source-map-js</a>. This software contains the following license and notice below:</p>
     <p><br/>Copyright (c) 2009-2011, Mozilla Foundation and contributors
 All rights reserved.
 
@@ -1416,7 +1414,7 @@ modification, are permitted provided that the following conditions are met:
   contributors may be used to endorse or promote products derived from this
   software without specific prior written permission.
 
-THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS &quot;AS IS&quot; AND
 ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
 WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
 DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
@@ -1428,12 +1426,12 @@ OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 </p>
     <hr/>
-    <p>The following software may be included in this product: postcss. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/postcss" target="_blank">https://www.npmjs.com/package/postcss</a>. This software contains the following license and notice below:</p>
+    <p>The following software may be included in this product: postcss. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/postcss" target="_blank" rel="noreferrer">https://www.npmjs.com/package/postcss</a>. This software contains the following license and notice below:</p>
     <p>The MIT License (MIT)<br/>
 Copyright 2013 Andrey Sitnik &#60;andrey@sitnik.ru&#62;
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
-this software and associated documentation files (the "Software"), to deal in
+this software and associated documentation files (the &quot;Software&quot;), to deal in
 the Software without restriction, including without limitation the rights to
 use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
 the Software, and to permit persons to whom the Software is furnished to do so,
@@ -1442,7 +1440,7 @@ subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
 FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
@@ -1450,12 +1448,12 @@ IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </p>
     <hr/>
-    <p>The following software may be included in this product: styled-jsx. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/styled-jsx" target="_blank">https://www.npmjs.com/package/styled-jsx</a>. This software contains the following license and notice below:</p>
+    <p>The following software may be included in this product: styled-jsx. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/styled-jsx" target="_blank" rel="noreferrer">https://www.npmjs.com/package/styled-jsx</a>. This software contains the following license and notice below:</p>
     <p>MIT License<br/>
 Copyright (c) 2016-present Vercel, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
+of this software and associated documentation files (the &quot;Software&quot;), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
@@ -1464,7 +1462,7 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -1473,12 +1471,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </p>
     <hr/>
-    <p>The following software may be included in this product: next. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/next" target="_blank">https://www.npmjs.com/package/next</a>. This software contains the following license and notice below:</p>
+    <p>The following software may be included in this product: next. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/next" target="_blank" rel="noreferrer">https://www.npmjs.com/package/next</a>. This software contains the following license and notice below:</p>
     <p>The MIT License (MIT)<br/>
 Copyright (c) 2022 Vercel, Inc.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
+of this software and associated documentation files (the &quot;Software&quot;), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
@@ -1487,7 +1485,7 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -1496,12 +1494,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </p>
     <hr/>
-    <p>The following software may be included in this product: next-seo. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/next-seo" target="_blank">https://www.npmjs.com/package/next-seo</a>. This software contains the following license and notice below:</p>
+    <p>The following software may be included in this product: next-seo. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/next-seo" target="_blank" rel="noreferrer">https://www.npmjs.com/package/next-seo</a>. This software contains the following license and notice below:</p>
     <p>MIT License<br/>
 Copyright (c) 2018 Gary Meehan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
+of this software and associated documentation files (the &quot;Software&quot;), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
@@ -1510,7 +1508,7 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -1519,12 +1517,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </p>
     <hr/>
-    <p>The following software may be included in this product: react. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/react" target="_blank">https://www.npmjs.com/package/react</a>. This software contains the following license and notice below:</p>
+    <p>The following software may be included in this product: react. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/react" target="_blank" rel="noreferrer">https://www.npmjs.com/package/react</a>. This software contains the following license and notice below:</p>
     <p>MIT License<br/>
 Copyright (c) Facebook, Inc. and its affiliates.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
+of this software and associated documentation files (the &quot;Software&quot;), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
@@ -1533,7 +1531,7 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -1542,12 +1540,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </p>
     <hr/>
-    <p>The following software may be included in this product: scheduler. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/scheduler" target="_blank">https://www.npmjs.com/package/scheduler</a>. This software contains the following license and notice below:</p>
+    <p>The following software may be included in this product: scheduler. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/scheduler" target="_blank" rel="noreferrer">https://www.npmjs.com/package/scheduler</a>. This software contains the following license and notice below:</p>
     <p>MIT License<br/>
 Copyright (c) Facebook, Inc. and its affiliates.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
+of this software and associated documentation files (the &quot;Software&quot;), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
@@ -1556,7 +1554,7 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -1565,12 +1563,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </p>
     <hr/>
-    <p>The following software may be included in this product: react-dom. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/react-dom" target="_blank">https://www.npmjs.com/package/react-dom</a>. This software contains the following license and notice below:</p>
+    <p>The following software may be included in this product: react-dom. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/react-dom" target="_blank" rel="noreferrer">https://www.npmjs.com/package/react-dom</a>. This software contains the following license and notice below:</p>
     <p>MIT License<br/>
 Copyright (c) Facebook, Inc. and its affiliates.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
+of this software and associated documentation files (the &quot;Software&quot;), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
@@ -1579,7 +1577,7 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
@@ -1588,12 +1586,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 </p>
     <hr/>
-    <p>The following software may be included in this product: typed.js. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/typed.js" target="_blank">https://www.npmjs.com/package/typed.js</a>. This software contains the following license and notice below:</p>
+    <p>The following software may be included in this product: typed.js. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/typed.js" target="_blank" rel="noreferrer">https://www.npmjs.com/package/typed.js</a>. This software contains the following license and notice below:</p>
     <p>The MIT License (MIT)<br/>
 Copyright (c) 2018 Matt Boldt
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
+of this software and associated documentation files (the &quot;Software&quot;), to deal
 in the Software without restriction, including without limitation the rights
 to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 copies of the Software, and to permit persons to whom the Software is
@@ -1602,7 +1600,7 @@ furnished to do so, subject to the following conditions:
 The above copyright notice and this permission notice shall be included in
 all copies or substantial portions of the Software.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER

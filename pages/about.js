@@ -1,9 +1,7 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/About.module.css'
 import { NavBar } from '../components/NavBar'
 import Footer from '../components/Footer'
-import Typing from '../components/Typing'
 import ExperienceBlock from '../components/experienceBlock'
 import {faDownload} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -36,12 +34,12 @@ export default function About() {
               companyName="DJFlame" 
               location="Folsom, CA" 
               jobTitle="Founder, CEO" 
-              description={(<>DJFlame is a group-streaming and AI-based song mixing and manipulation application. I worked on a cross-platform desktop application for an automated DJ using multiple methods. DJFlame uses Tensorflow-based AI song-selection and a Guest Companion App for Guest Interaction. It was used at multiple public events for beta testing and planned public release Q4 2022. Check out our website at <a href='https://djflame.tech' target="_blank">djflame.tech</a>.</>)} />
+              description={(<>DJFlame is a group-streaming and AI-based song mixing and manipulation application. I worked on a cross-platform desktop application for an automated DJ using multiple methods. DJFlame uses Tensorflow-based AI song-selection and a Guest Companion App for Guest Interaction. It was used at multiple public events for beta testing and planned public release Q4 2022. Check out our website at <a href='https://djflame.tech' target="_blank" rel="noreferrer">djflame.tech</a>.</>)} />
               <ExperienceBlock timeframe="2015 - 2021" 
               companyName="UTSAV Inc" 
               location="Folsom, CA" 
               jobTitle="UTSAV Tech and Media Committee Lead" 
-              description={(<>I served on the Tech and Media committee at UTSAV for 4 years before stepping down. During these 4 years, I rennovated their website (<a href='https://utsavsac.org' target={"_blank"}>utsavsac.org</a>), upgraded their workflow to fit the current times, and developed a Event Managing App System which was later sought for by other local organizations. The Event Managing App, called "Utsav Events" was made with a Flutter front-end and a BaaS called Firebase, a Google service.</>)} />
+              description={(<>I served on the Tech and Media committee at UTSAV for 4 years before stepping down. During these 4 years, I rennovated their website (<a href='https://utsavsac.org' target={"_blank"} rel="noreferrer">utsavsac.org</a>), upgraded their workflow to fit the current times, and developed a Event Managing App System which was later sought for by other local organizations. The Event Managing App, called &quot;Utsav Events&quot; was made with a Flutter front-end and a BaaS called Firebase, a Google service.</>)} />
             </div>
             <div className={styles.education}>
               <h2>Education</h2>

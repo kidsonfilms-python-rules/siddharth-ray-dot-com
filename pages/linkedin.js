@@ -17,7 +17,7 @@ export default function LinkedInRedirect() {
 
     return (
         <>
-            <h1>Redirecting to Siddharth Ray's LinkedIn in {seconds} seconds...</h1>
+            <h1>Redirecting to Siddharth Ray&apos;s LinkedIn in {seconds} seconds...</h1>
             <p>If it does not redirect, <a href="https://linkedin.com/in/the-ray" style={{fontWeight: "bold"}}>click here</a> <br />
                 <span style={{ color: 'red' }}>{error}</span>
             </p>

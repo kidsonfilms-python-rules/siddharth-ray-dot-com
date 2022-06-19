@@ -1,5 +1,4 @@
 import '../styles/globals.css'
-import App, { Container } from 'next/app';
 import { DefaultSeo } from 'next-seo';
 import '@fortawesome/fontawesome-svg-core/styles.css'
 import * as React from "react";

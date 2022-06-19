@@ -1,9 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../../styles/PortfolioPage.module.css'
 import { NavBarPortfolio } from '../../components/NavBar'
-import Footer from '../../components/Footer'
-import Typing from '../../components/Typing'
 
 export default function DJFlamePortfolioPage() {
   return (
