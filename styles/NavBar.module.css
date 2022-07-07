@@ -15,7 +15,7 @@
     background-color: #0d0f1491;
     backdrop-filter: blur(5px);
     z-index: 100;
-    width: 100vw;
+    max-width: 100vw;
 }
 
 .logo {
@@ -91,12 +91,12 @@
     margin-left: 0px;
 }
 
-.socials li a {
+.socials li svg {
     color: #ABABAB;
     transition: all 400ms;
 }
 
-.socials li a:hover {
+.socials li svg:hover {
     color: var(--primary-color);
     -webkit-box-shadow: 0px 0px 43px 0.5px rgba(100, 43, 255, 1);
     -moz-box-shadow: 0px 0px 43px 0.5px rgba(100, 43, 255, 1);
