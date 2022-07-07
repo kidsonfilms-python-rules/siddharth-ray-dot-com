@@ -40,7 +40,7 @@ export default function Portfolio() {
 
           <PortfolioCard
             title={(<><span style={{ color: '#8b0d19', fontWeight: "bold" }}>UTSAV Inc.</span> Website and Apps</>)}
-            date="Circa 2015"
+            date="Circa 2015 - 2020"
             description="Utsav is a nonprofit (a 501(c)(3) Nonprofit Organization), charitable and cultural organization involved in promoting Indian culture in the Sacramento region." 
             thumbnail="https://pbs.twimg.com/media/FR6y5PWWQAI0CGj.jpg"
             redirect="/portfolio/utsav"/>
