@@ -34,7 +34,7 @@ export default function Portfolio() {
           <PortfolioCard
             title={(<><span style={{ color: '#5865F2', fontWeight: "bold" }}>Discord</span> Bots</>)}
             date="2020 - 2022"
-            description="Dicord is a VoIP Chat Service which has a Bot API to help enchance the experiance of chats." 
+            description="Discord is a VoIP Chat Service which has a Bot API to help enchance the experiance of chats." 
             thumbnail="https://image.shutterstock.com/image-photo/dumai-indonesia-09-november-2021-260nw-2071853249.jpg"
             redirect="/portfolio/discordbots"/>
 
