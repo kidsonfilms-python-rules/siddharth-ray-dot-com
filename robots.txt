@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.siddharthray.com
+
+# Sitemaps
+Sitemap: https://www.siddharthray.com/sitemap.xml
