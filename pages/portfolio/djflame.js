@@ -15,7 +15,7 @@ export default function DJFlamePortfolioPage() {
       <main className={styles.main}>
         <div className={styles.leftBox}>
           <div className={styles.titleBox}>
-            <h1>DJFlame</h1>
+            <h1 className={styles.djflame}>DJFlame</h1>
             <a href="https://djflame.tech/" style={{fontWeight: 600}}>visit website</a>
           </div>
           <p>DJFlame is a group-streaming and AI-based song mixing and manipulation application. DJFlame uses Tensorflow-based AI song selection and a Guest Companion App for Guest Interaction. I worked on all parts of the product, specializing in the GUI Design and Development as well as the Backend.</p>

@@ -22,10 +22,10 @@ export default function About() {
           <h1 className={styles.title}>siddharth<span className={styles.primaryColorSpan}>.about()</span></h1>
           <div className={styles.buttonRow}>
             <a href='/download/Siddharth Ray Resume.pdf' target={"_blank"}><FontAwesomeIcon icon={faDownload} className={styles.icon} /> download PDF</a>
-            <p>●  last updated June 7th 2022</p>
+            <p>●  last updated July 12th 2022</p>
           </div>
           <p>
-            I am a Software Developer based in Folsom, California and a rising freshman at Vista del Lago High School. I also do video production, visual effects, and play the cello as hobbies!
+            I am a Software Developer based in Folsom, California and a freshman at Vista del Lago High School. I also do video production, visual effects, and play the cello as hobbies!
           </p>
           <div className={styles.resumeRow}>
             <div className={styles.experience}>

@@ -20,9 +20,33 @@
     flex: 1;
 }
 
-.leftBox h1 {
+.leftBox h1.djflame {
     background-color: #ff7eee;
     background: linear-gradient(272.28deg, #FF7EEE 4.34%, #DF49A6 98.7%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  font-size: 60px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: 900;
+}
+.leftBox h1.discordbots {
+    background-color: #ff7eee;
+    background: linear-gradient(27deg,#5b73ca 4.34%,#3444f6 98.7%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+  font-size: 60px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-weight: 900;
+}
+.leftBox h1.vfxediting {
+    background-color: #ff7eee;
+    background: linear-gradient(27deg,#9b30e2 4.34%,#6818e8 98.7%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -82,4 +106,8 @@
 .rightBox h1 {
  font-size: 20px;
  font-weight: 600;
+}
+
+.rightBox img {
+    border-radius: 10px;
 }

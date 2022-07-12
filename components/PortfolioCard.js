@@ -10,7 +10,7 @@ export function PortfolioCard(props) {
 
     return (
         <div className={styles.card} 
-        // onClick={() => window.location = redirect}
+        onClick={() => window.location = redirect}
         >
             <div className={styles.imgWrapper}>
                 <img src={thumnail}></img>

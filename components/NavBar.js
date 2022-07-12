@@ -56,9 +56,9 @@ export function NavBarPortfolio(props) {
 
     return (
         <nav className={styles.navbar} style={{ paddingLeft: "5vw", background: "transparent", backdropFilter: "none" }}>
-            <div className={styles.logoContainer}>
+            <div className={styles.logoContainer} style={{cursor: "pointer"}}>
                 <Link href='/portfolio'><FontAwesomeIcon icon={faAngleLeft} className={styles.icon} /></Link>
-                <p className={styles.logo} style={{ color: "white" }}>back</p>
+                <Link href='/portfolio'><p className={styles.logo} style={{ color: "white" }}>back</p></Link>
             </div>
             <div className={styles.navContainer} ref={navContent}>
                 <ul className={styles.socials}>

@@ -22,14 +22,14 @@ export default function Portfolio() {
             date="December 2019 - Present"
             description="DJFlame is a group-streaming and AI-based song mixing and manipulation application. DJFlame uses Tensorflow-based AI song selection and a Guest Companion App for Guest Interaction." 
             thumbnail="https://miro.medium.com/max/1400/1*JMe3z14eW_PWOaSwHSGCtA.png"
-            redirect="/portfolio/djflame"/>
+            redirect="https://djflame.tech"/>
 
           <PortfolioCard
             title={(<><span style={{ color: '#FF9626', fontWeight: "bold" }}>Juice 16236</span></>)}
             date="August 2021 - Present"
             description="Juice 16236 is a high school robotics team that competes in FIRST Tech Challenge." 
-            thumbnail="https://lh3.googleusercontent.com/pw/AM-JKLWvp3ofLIlLliRwP_GCS16WWDMtuz1RXAUqGoWvcsCfn5DYlk3KE0JI-htkCHrrx9LNDfYPmd2J-XZNhk8xMZkrdU0AIm5kVuwu5UNi20ZZMGZOXCEe-HOBUZS2eyT11P0JvHubGERKv_Ouu5F6A0A=w1822-h1366-no?authuser=2"
-            redirect="/portfolio/juice"/>
+            thumbnail="/assets/juice-portfolio.png"
+            redirect="https://juicerobotics.org"/>
             
           <PortfolioCard
             title={(<><span style={{ color: '#5865F2', fontWeight: "bold" }}>Discord</span> Bots</>)}
@@ -43,7 +43,7 @@ export default function Portfolio() {
             date="Circa 2015 - 2020"
             description="Utsav is a nonprofit (a 501(c)(3) Nonprofit Organization), charitable and cultural organization involved in promoting Indian culture in the Sacramento region." 
             thumbnail="https://pbs.twimg.com/media/FR6y5PWWQAI0CGj.jpg"
-            redirect="/portfolio/utsav"/>
+            redirect="https://utsavsac.org"/>
 
           <PortfolioCard
             title={(<><span className={styles.vfxSpan}>VFX</span> and <span className={styles.vfxSpan}>Editing</span></>)}
