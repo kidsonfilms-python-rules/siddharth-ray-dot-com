@@ -8,6 +8,7 @@ body {
   background-color: #0D0F14;
   color: white;
   --primary-color: #622BFF;
+  overflow-x: none;
 }
 
 a {

@@ -7,32 +7,39 @@ import { useRef, useState } from 'react'
 import Link from 'next/link'
 
 export function NavBar(props) {
-    const [menuState, setMenuState] = useState();
+    const [menuState, setMenuState] = useState(true);
     const navContent = useRef();
+    const hamburger = useRef();
     const page = props.page
+
 
     return (
         <nav className={styles.navbar}>
             <div className={styles.logoContainer}>
                 <p className={styles.logo}>siddharth.ray()</p>
             </div>
-            <Link href='#' className={styles.hamburger} onClick={() => {
+            <div className={styles.hamburger} ref={hamburger} onClick={() => {
+
                 console.log("clicked lol");
                 setMenuState(!menuState);
                 if (menuState) {
                     navContent.current.style.display = "flex";
+                    hamburger.current.classList.toggle(styles.toggle);
+                    console.log(hamburger.current.classList)
                 } else {
-
+                    hamburger.current.classList.toggle(styles.toggle);
+                    console.log(hamburger.current.classList)
                     navContent.current.style.display = "none";
 
                 }
+
             }}>
                 <div>
-                    <span className={styles.bar}></span>
-                    <span className={styles.bar}></span>
-                    <span className={styles.bar}></span>
+                    <div className={styles.bar}></div>
+                    <div className={styles.bar}></div>
+                    <div className={styles.bar}></div>
                 </div>
-            </Link>
+            </div>
             <div className={styles.navContainer} ref={navContent}>
                 <ul className={styles.linksContainer}>
                     <li className={page == "home" ? styles.onPage : ""}><Link href="/">home()</Link></li>
@@ -56,7 +63,7 @@ export function NavBarPortfolio(props) {
 
     return (
         <nav className={styles.navbar} style={{ paddingLeft: "5vw", background: "transparent", backdropFilter: "none" }}>
-            <div className={styles.logoContainer} style={{cursor: "pointer"}}>
+            <div className={styles.logoContainer} style={{ cursor: "pointer" }}>
                 <Link href='/portfolio'><FontAwesomeIcon icon={faAngleLeft} className={styles.icon} /></Link>
                 <Link href='/portfolio'><p className={styles.logo} style={{ color: "white" }}>back</p></Link>
             </div>

@@ -46,7 +46,7 @@ export default function VFXEditingPortfolioPage() {
           <div>
             <h1>MEGH (2021) Opening Titles</h1>
             {/* <img src="http://via.placeholder.com/640x360" width={250}/> */}
-            <iframe src="https://www.youtube.com/embed/usT6LtGhnPs" width="250" height="140" title="MEGH (2021) Teaser | Utsav Production" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/usT6LtGhnPs" width="250" height="140" title="MEGH (2021) Teaser | Utsav Production" frameBorder="0" allowFullScreen></iframe>
           </div>
           <div>
             <h1>CGI Tiger</h1>

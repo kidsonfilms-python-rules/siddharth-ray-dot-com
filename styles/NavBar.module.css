@@ -63,6 +63,7 @@
 .navContainer {
     display: flex;
     flex-direction: row;
+    transition: all 500ms;
 }
 
 .socials {
@@ -112,18 +113,34 @@
     justify-content: space-between;
     width: 31px;
     height: 21px;
+    transform: all 500ms;
 }
 
 .hamburger .bar {
     height: 3px;
     width: 100%;
-    background-color: white;
+    margin-bottom: 5px;
+    background-color: #e2e2e2;
     border-radius: 20px;
+    transform: all 500ms;
+}
+
+.toggle .bar:nth-of-type(1) {
+    transform: rotate(-45deg) translate(-5px,6px);
+}
+
+.toggle .bar:nth-of-type(2) {
+    opacity: 0;
+}
+
+.toggle .bar:nth-of-type(3) {
+    transform: rotate(45deg) translate(-5px,-6px);
 }
 
 @media (max-width: 800px) {
     .hamburger {
         display: flex;
+        transform: all 500ms;
     }
 
     .linksContainer, .socials {
@@ -141,11 +158,12 @@
     }
 
     .navContainer {
-        background-color: #1d2332;
+        background-color: #1d2332db;
     backdrop-filter: blur(10px);
-        width: 100vw;
+        width: 100%;
         margin: 0;
         position: absolute;
+        left: 5vw;
         top: 8vh;
         z-index: 1000;
         border-radius: 40px;
