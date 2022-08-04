@@ -108,3 +108,34 @@
       0 0 102px var(--primary-color),
       0 0 151px var(--primary-color);
 }
+
+@media (max-width: 800px) {
+    .footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .center {
+        order: 1;
+        text-align: center;
+    }
+
+    .socials {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left {
+        text-align: center;
+        order: 2;
+    }
+
+    .footer .right {
+        text-align: center;
+        justify-content: center;
+        order: 3;
+    }
+
+    
+}
