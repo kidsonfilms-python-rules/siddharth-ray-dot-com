@@ -55,3 +55,25 @@
 .mainBody a:hover {
     color: white;
 }
+
+@media (max-width: 600px) {
+    .block {
+        flex-direction: column;
+        margin-bottom: 2.5vh;
+    }
+
+    .timeframeContainer p {
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    .titleDiv {
+        flex-direction: column;
+        text-align: left;
+        margin-bottom: 10px;
+    }
+
+    .titleDiv p {
+        font-weight: bold;
+    }
+}

@@ -136,6 +136,26 @@ color: #ABABAB;
     width: 100%;
     flex-direction: column;
   }
+
+  .title {
+    font-size: 8vw;
+  }
+
+  .main h2 {
+    font-size: 7vw;
+  }
+
+  .buttonRow {
+    flex-direction: column !important;
+  }
+
+  .buttonRow p:nth-child(2) {
+    display: none;
+  }
+
+  .buttonRow p {
+    margin-left: 0px !important;
+  }
 }
 
 .primaryColorSpan {
