@@ -138,6 +138,18 @@ color: #ABABAB;
     width: 100%;
     flex-direction: column;
   }
+
+  .title {
+    font-size: 10vw;
+  }
+
+  .stinger {
+    margin-left: 5vw !important;
+  }
+
+  .main h2 {
+    font-size: 6vw;
+  }
 }
 
 .primaryColorSpan {
