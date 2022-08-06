@@ -23,13 +23,15 @@ export function NavBar(props) {
                 console.log("clicked lol");
                 setMenuState(!menuState);
                 if (menuState) {
-                    navContent.current.style.display = "flex";
+                    navContent.current.style.visibility = "visible";
+                    navContent.current.style.opacity = 1;
                     hamburger.current.classList.toggle(styles.toggle);
                     console.log(hamburger.current.classList)
                 } else {
                     hamburger.current.classList.toggle(styles.toggle);
                     console.log(hamburger.current.classList)
-                    navContent.current.style.display = "none";
+                    navContent.current.style.visibility = "hidden";
+                    navContent.current.style.opacity = 0;
 
                 }
 

@@ -16,6 +16,7 @@
     backdrop-filter: blur(5px);
     z-index: 100;
     max-width: 100vw;
+    transition: all 500ms ease-in-out;
 }
 
 .logo {
@@ -63,7 +64,6 @@
 .navContainer {
     display: flex;
     flex-direction: row;
-    transition: all 500ms;
 }
 
 .socials {
@@ -106,14 +106,14 @@
 
 .hamburger {
     position: absolute;
-    top: 2.5vh;
-    right: 1vw;
+    top: 22.5px;
+    right: 10vw;
     display: none;
     flex-direction: column;
     justify-content: space-between;
     width: 31px;
     height: 21px;
-    transform: all 500ms;
+    transition: all 500ms ease-in-out;
 }
 
 .hamburger .bar {
@@ -122,7 +122,11 @@
     margin-bottom: 5px;
     background-color: #e2e2e2;
     border-radius: 20px;
-    transform: all 500ms;
+    transition: all 500ms ease-in-out;
+}
+
+.toggle .bar {
+    background-color: var(--primary-color);
 }
 
 .toggle .bar:nth-of-type(1) {
@@ -140,7 +144,6 @@
 @media (max-width: 800px) {
     .hamburger {
         display: flex;
-        transform: all 500ms;
     }
 
     .linksContainer, .socials {
@@ -148,7 +151,13 @@
     }
 
     .navContainer {
-        display: none;
+        opacity: 0;
+        display: flex;
+        visibility: hidden;
+    }
+
+    .navbar {
+        margin-bottom: 0;
     }
 
     .navbar, .navContainer {
@@ -158,30 +167,35 @@
     }
 
     .navContainer {
-        background-color: #1d2332db;
-    backdrop-filter: blur(10px);
+        background-color: #1d2332f8;
+        backdrop-filter: blur(10px);
         width: 100%;
+        height: 95vh;
         margin: 0;
         position: absolute;
         left: 0;
         top: 8vh;
         z-index: 1000;
-        border-radius: 40px;
+        /* border-radius: 40px; */
+        transition: all 500ms;
+        align-items: center;
+        justify-content: center;
     }
 
     .navContainer ul {
         flex-direction: column;
         align-items: center;
+        justify-content: space-evenly;
     }
 
     .navContainer ul li {
         margin-left: 0px;
-        margin-bottom: 10px;
-        font-size: 20px;
+        margin-bottom: 50px;
+        font-size: 30px;
     }
 
     .socials .icon {
-        font-size: 30px;
+        font-size: 40px;
         margin-bottom: 10px;
     }
 }
