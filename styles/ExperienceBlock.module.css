@@ -76,4 +76,8 @@
     .titleDiv p {
         font-weight: bold;
     }
+
+    .mainBody h2 {
+        font-size: 18px;
+    }
 }
