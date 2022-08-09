@@ -23,7 +23,7 @@ export default function About() {
           <div className={styles.buttonRow}>
             <a href='/download/Siddharth Ray Resume.pdf' target={"_blank"}><FontAwesomeIcon icon={faDownload} className={styles.icon} /> download PDF</a>
             <p>●  </p>
-            <p>last updated July 12th 2022</p>
+            <p>last updated August 9th 2022</p>
           </div>
           <p>
             I am a Software Developer based in Folsom, California and a freshman at Vista del Lago High School. I also do video production, visual effects, and play the cello as hobbies!
@@ -47,7 +47,7 @@ export default function About() {
               <ExperienceBlock timeframe="2022 - 2026" 
               companyName="Vista del Lago High School" 
               location="High School Diploma"
-              jobTitle="Incoming Freshman" />
+              jobTitle="Freshman" />
               <ExperienceBlock timeframe="2019 - 2022" 
               companyName="Folsom Middle School" 
               jobTitle="GPA: 4.0" />
