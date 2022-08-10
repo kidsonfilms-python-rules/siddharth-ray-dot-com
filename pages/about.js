@@ -26,7 +26,7 @@ export default function About() {
             <p>last updated August 9th 2022</p>
           </div>
           <p>
-            I am a Software Developer based in Folsom, California and a freshman at Vista del Lago High School. I also do video production, visual effects, and play the cello as hobbies!
+            I am a Software Developer based in Folsom, California and a freshman at Vista del Lago High School. On the side, I do video production, visual effects, and play the cello as hobbies!
           </p>
           <div className={styles.resumeRow}>
             <div className={styles.experience}>
