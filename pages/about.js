@@ -50,8 +50,8 @@ export default function About() {
               jobTitle="Sophomore" />
               {/* <ExperienceBlock timeframe="2019 - 2022" 
               companyName="Folsom Middle School" 
-              jobTitle="GPA: 4.0" />
-            </div> */}
+              jobTitle="GPA: 4.0" /> */}
+            </div>
             <div className={styles.competitions}>
               <h2>Competitions</h2>
               <ExperienceBlock timeframe="2021 – now" 
@@ -66,7 +66,6 @@ export default function About() {
               description="We built a LEGO-based robot. In our last year won Qualifiers and made 6th place in NorCal Championships."/>
             </div>
           </div>
-        </div>
         </div>
       </main>
 
