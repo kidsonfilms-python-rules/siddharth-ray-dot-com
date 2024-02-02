@@ -59,7 +59,7 @@ export default function About() {
               location="Team Juice 16236"
               jobTitle="Software Division Lead, Vice Captain" 
               description="We built a robot using water-jet cut aluminum parts and programmed the robot using Java and tools like TensorFlow. Went to local and international companies to get sponsorships and made publicly used and open-source tools for the FTC community. We were finalists in the 2022 NorCal Regional Championships and won multiple other awards."/>
-              <ExperienceBlock timeframe="2016–2019" 
+              <ExperienceBlock timeframe="2016 – 2019" 
               companyName="FIRST® Lego League"
               location="Team Golden State Builders 30208"
               jobTitle="Team Member" 
