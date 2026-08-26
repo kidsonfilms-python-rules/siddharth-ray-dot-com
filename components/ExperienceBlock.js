@@ -2,7 +2,7 @@ import styles from "../styles/ExperienceBlock.module.css"
 
 export default function ExperienceBlock(props) {
     return (
-        <div className={styles.block}>
+        <div className={`${styles.block} ${props.className || ''}`}>
             <div className={styles.timeframeContainer}>
                 <p>{props.timeframe}</p>
             </div>

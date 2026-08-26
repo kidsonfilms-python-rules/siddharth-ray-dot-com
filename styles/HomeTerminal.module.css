@@ -1,0 +1,110 @@
+.typingTrigger {
+  cursor: text;
+  outline: none;
+}
+
+.typingTrigger:focus-visible {
+  outline: 1px dashed var(--primary-color);
+  outline-offset: 0.25rem;
+}
+
+.homeTerminal {
+  color: #bff5c6;
+  font-size: clamp(1.05rem, 2.4vw, 1.35rem);
+  line-height: 1.55;
+  margin: 0.7rem 0;
+  max-width: 44rem;
+  min-height: 2.2rem;
+}
+
+.terminalHistory {
+  color: #c6c8cf;
+  font-size: 0.78em;
+  margin-bottom: 0.7rem;
+  white-space: pre-wrap;
+}
+
+.terminalHistory div:first-child { color: #bff5c6; }
+
+.terminalLine {
+  align-items: center;
+  display: flex;
+  gap: 0.65rem;
+}
+
+.terminalLine label {
+  color: #bff5c6;
+  font-weight: 500;
+}
+
+.terminalInput {
+  flex: 1;
+  min-width: 0;
+  position: relative;
+}
+
+.terminalInput > span {
+  color: #f5f5f7;
+  display: block;
+  min-height: 1.55em;
+  white-space: pre;
+}
+
+.terminalInput input {
+  background: transparent;
+  border: 0;
+  caret-color: transparent;
+  color: transparent;
+  font: inherit;
+  height: 100%;
+  left: 0;
+  min-width: 0;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.terminalCursor {
+  animation: terminal-cursor 1s steps(1, end) infinite;
+  background: #bff5c6;
+  display: inline-block;
+  height: 1.05em;
+  margin-left: 0.08em;
+  vertical-align: -0.16em;
+  width: 0.58em;
+}
+
+@keyframes terminal-cursor {
+  50% { opacity: 0; }
+}
+
+.snakeGame {
+  color: #c6c8cf;
+  margin: 0;
+  max-width: min(100%, 36rem);
+  outline: none;
+}
+
+.snakeHeader {
+  color: #bff5c6;
+  font-size: 0.78em;
+  margin: 0.2rem 0 0.45rem;
+}
+
+.snakeBoard {
+  color: #bff5c6;
+  font-size: clamp(0.43rem, 1.8vw, 0.78rem);
+  line-height: 1.35;
+  margin: 0;
+  overflow: hidden;
+  white-space: pre;
+  width: 100%;
+}
+
+.snakeGame p {
+  color: #a4b6a5;
+  font-size: 0.72em;
+  margin: 0.65rem 0 0;
+}

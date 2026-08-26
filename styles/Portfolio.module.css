@@ -1,186 +1,47 @@
-.container {
-    padding: 0 2rem;
-  }
-  
-  .main {
-    min-height: 200vh;
-    /* padding: 4rem 0; */
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    z-index: 1;
-  }
-  
-  .footer {
-    display: flex;
-    flex: 1;
-    padding: 2rem 0;
-    border-top: 1px solid #eaeaea;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .footer a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-  }
-  
-  .title span {
-    color: var(--primary-color);
-    text-decoration: none;
-  }
-  
-  .title span:hover,
-  .title span:focus,
-  .title span:active {
-    text-decoration: underline;
-  }
-  
-  .title {
-    margin: 0;
-    line-height: 1.15;
-    font-size: 3rem;
-  }
-  
-  .title,
-  .description {
-    text-align: left;
-  }
-  
-  .description {
-    margin: 4rem 0;
-    line-height: 1.5;
-    font-size: 1.5rem;
-  }
-  
-  .main h2 {
-    font-weight: 300;
-  color: #ABABAB;
-  }
-  
-  .main h2 span:first-child {
-    /* text-decoration: underline; */
-    font-weight: 400;
-    transition: all 400ms;
-    /* color: white;  */
-  }
-  
-  .main h2 span:first-child:hover {
-    color: white;
-      text-shadow:
-        0 0 7px #fff,
-        0 0 10px #fff,
-        0 0 21px #fff,
-        0 0 42px var(--primary-color),
-        0 0 82px var(--primary-color),
-        0 0 92px var(--primary-color),
-        0 0 102px var(--primary-color),
-        0 0 151px var(--primary-color);
-  }
-  
-  .code {
-    background: #fafafa;
-    border-radius: 5px;
-    padding: 0.75rem;
-    font-size: 1.1rem;
-    font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-      Bitstream Vera Sans Mono, Courier New, monospace;
-  }
-  
-  .grid {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    max-width: 800px;
-  }
-  
-  .card {
-    margin: 1rem;
-    padding: 1.5rem;
-    text-align: left;
-    color: inherit;
-    text-decoration: none;
-    border: 1px solid #eaeaea;
-    border-radius: 10px;
-    transition: color 0.15s ease, border-color 0.15s ease;
-    max-width: 300px;
-  }
-  
-  .card:hover,
-  .card:focus,
-  .card:active {
-    color: #0070f3;
-    border-color: #0070f3;
-  }
-  
-  .card h2 {
-    margin: 0 0 1rem 0;
-    font-size: 1.5rem;
-  }
-  
-  .card p {
-    margin: 0;
-    font-size: 1.25rem;
-    line-height: 1.5;
-  }
-  
-  .logo {
-    height: 1em;
-    margin-left: 0.5rem;
-  }
-  
-  @media (max-width: 600px) {
-    .grid {
-      width: 100%;
-      flex-direction: column;
-    }
+.main {
+  margin: 0 auto;
+  max-width: 1100px;
+  min-height: calc(100vh - 160px);
+  padding: clamp(4rem, 8vw, 7rem) clamp(1.5rem, 6vw, 5rem) 6rem;
+}
 
-    .title {
-      font-size: 7vw;
-    }
-  }
-  
-  .primaryColorSpan {
-    color: var(--primary-color);
-  }
-  
-  
-  .cards {
-    /* margin: 10vw; */
-    min-width: 75vw;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    /* transform: translateY(100%); */
-    display: flex;
-    flex-direction: column;
-    /* background-color: antiquewhite; */
-  }
+.title {
+  font-size: clamp(2.8rem, 6vw, 5rem);
+  font-weight: 600;
+  letter-spacing: -0.06em;
+  line-height: 1;
+  margin: 0;
+}
 
-  .djflameSpan {
-  background-color: #ff7eee;
-  font-weight: bold;
-  background-image: linear-gradient(45deg,#df49a6,#ff7eee);
-  background-size: 100%;
-  background-repeat: repeat;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  }
-  .vfxSpan {
-  background-color: #ff7eee;
-  font-weight: bold;
-  background-image: linear-gradient(45deg,#ab58e2,#7326f0);
-  background-size: 100%;
-  background-repeat: repeat;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent; 
-  -moz-background-clip: text;
-  -moz-text-fill-color: transparent;
-  }
+.primaryColorSpan { color: var(--primary-color); }
+
+.intro {
+  color: #d2d3da;
+  font-size: 1.08rem;
+  line-height: 1.7;
+  margin: 1.5rem 0 4rem;
+  max-width: 39rem;
+}
+
+.sectionLabel {
+  color: #aeb0ba;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  margin: 0 0 1rem;
+}
+
+.cards { width: 100%; }
+
+.githubLink {
+  color: #d2d3da;
+  display: inline-block;
+  margin-top: 2rem;
+  text-decoration: underline;
+  text-decoration-color: #777b87;
+  text-underline-offset: 0.2em;
+}
+
+.githubLink:hover {
+  color: #c9b6ff;
+  text-decoration-color: currentColor;
+}

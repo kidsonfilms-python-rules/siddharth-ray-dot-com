@@ -1,66 +1,72 @@
 .card {
-    background-color: #161725;
-    border-radius: 25px;
-    /* border-color: rgb(133, 133, 133);
-    border-width: 1px;
-    border-style: solid; */
-    transition: all 500ms;
-    box-shadow: 10px 10px 40px black;
-    width: 500px;
-    max-width: 90vw;
-    margin-top: 40px;
-    margin-bottom: 30px;
-    cursor: pointer;
+  align-items: start;
+  border-top: 1px solid #3a3d46;
+  color: inherit;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 2.5rem 150px minmax(0, 1fr) 1.5rem;
+  padding: 1.5rem 0;
+  text-decoration: none;
+  transition: color 160ms ease, padding-left 160ms ease;
 }
 
 .card:hover {
-    background-color: #292b44;
-    box-shadow: 40px 20px 40px black;;
+  color: #c9b6ff;
+  padding-left: 0.35rem;
 }
 
-.card img {
-    width: 500px;
-    max-width: 90vw;
-    max-height: 250px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
-    filter: brightness(0.5);
-    transition: all 500ms;
-    overflow: hidden;
-    object-fit: cover;
+.number,
+.meta { color: #aeb0ba; font-size: 0.8rem; }
+
+.thumbnail,
+.placeholder {
+  background: #171a22;
+  display: block;
+  height: 94px;
+  object-fit: cover;
+  width: 150px;
 }
 
-.card:hover img {
-    filter: brightness(1);
+.placeholder {
+  align-items: center;
+  border: 1px solid #3a3d46;
+  color: #d8baba;
+  display: flex;
+  font-size: 0.78rem;
+  justify-content: center;
+  letter-spacing: 0.04em;
+  padding: 0.5rem;
+  text-align: center;
 }
 
-.card img:hover {
-    transform: scale(1.25);
+.projectInfo h2 {
+  color: #f5f5f7;
+  font-size: clamp(1.2rem, 2vw, 1.5rem);
+  font-weight: 500;
+  margin: 0;
 }
 
-.imgWrapper img {
-    transition: all 1s ease;
-    vertical-align: middle;
+.meta { margin: 0.4rem 0 0; }
+
+.description {
+  color: #d2d3da;
+  font-size: 0.95rem;
+  line-height: 1.65;
+  margin: 0.65rem 0 0;
 }
 
-.imgWrapper {
-    display: inline-block; /* change the default display type to inline-block */
-    overflow: hidden;      /* hide the overflow */
-    width: 500px;
-    max-width: 90vw;
-    max-height: 250px;
-    border-top-left-radius: 25px;
-    border-top-right-radius: 25px;
+.arrow { color: #aeb0ba; font-size: 1.2rem; text-align: right; }
+
+@media (max-width: 700px) {
+  .card { grid-template-columns: 2.25rem 110px minmax(0, 1fr) 1.5rem; }
+  .thumbnail,
+  .placeholder { height: 76px; width: 110px; }
 }
 
-.card h1 {
-    font-weight: 400;
-}
-
-.card h2 {
-    font-size: medium;
-}
-
-.bodyContent {
-    padding: 10px;
+@media (max-width: 500px) {
+  .card { grid-template-columns: 2rem minmax(0, 1fr) 1.5rem; }
+  .thumbnail,
+  .placeholder { display: none; }
+  .projectInfo { grid-column: 2; }
+  .arrow { grid-column: 3; }
 }

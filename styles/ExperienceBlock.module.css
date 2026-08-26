@@ -71,6 +71,7 @@
         flex-direction: column;
         text-align: left;
         margin-bottom: 10px;
+        width: 100%;
     }
 
     .titleDiv p {
@@ -79,5 +80,14 @@
 
     .mainBody h2 {
         font-size: 18px;
+    }
+
+    .mainBody {
+        min-width: 0;
+    }
+
+    .mainBody p,
+    .mainBody a {
+        overflow-wrap: anywhere;
     }
 }

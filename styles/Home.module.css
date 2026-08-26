@@ -3,12 +3,13 @@
 }
 
 .main {
-  /* min-height: 200vh; */
-  /* padding: 4rem 0; */
   flex: 1;
   display: flex;
   flex-direction: column;
   z-index: 1;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 10vw 6rem;
 }
 
 .footer {
@@ -27,14 +28,14 @@
   flex-grow: 1;
 }
 
-.title span {
+.title > span {
   color: var(--primary-color);
   text-decoration: none;
 }
 
-.title span:hover,
-.title span:focus,
-.title span:active {
+.title > span:hover,
+.title > span:focus,
+.title > span:active {
   text-decoration: underline;
 }
 
@@ -143,10 +144,6 @@ color: #ABABAB;
     font-size: 10vw;
   }
 
-  .stinger {
-    margin-left: 5vw !important;
-  }
-
   .main h2 {
     font-size: 6vw;
   }
@@ -158,7 +155,181 @@ color: #ABABAB;
 
 
 .stinger {
-  margin: 10vw;
-  transform: translateY(100%);
-  /* background-color: antiquewhite; */
+  min-height: 72vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 6rem 0 4rem;
+}
+
+.intro {
+  max-width: 620px;
+  margin: 1.5rem 0 2rem;
+  color: #c3c3c7;
+  font-size: 1.2rem;
+  line-height: 1.7;
+}
+
+.heroActions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.primaryButton,
+.secondaryButton {
+  display: inline-block;
+  border: 1px solid var(--primary-color);
+  padding: 0.8rem 1.1rem;
+  font-size: 0.95rem;
+  transition: transform 180ms ease, background-color 180ms ease, color 180ms ease;
+}
+
+.primaryButton {
+  background: var(--primary-color);
+  color: white;
+}
+
+.secondaryButton {
+  color: #ded8ff;
+}
+
+.primaryButton:hover,
+.secondaryButton:hover {
+  transform: translateY(-3px);
+}
+
+.primaryButton:hover {
+  background: #7746ff;
+}
+
+.secondaryButton:hover {
+  background: var(--primary-color);
+  color: white;
+}
+
+.workSection,
+.contactSection {
+  padding: 6rem 0;
+}
+
+.sectionHeading {
+  max-width: 620px;
+  margin-bottom: 2.5rem;
+}
+
+.sectionHeading h2,
+.contactSection h2 {
+  margin: 0.3rem 0 0.9rem;
+  font-size: clamp(2rem, 5vw, 3.5rem);
+  line-height: 1.1;
+  color: white;
+  font-weight: 500;
+}
+
+.sectionHeading > p:last-child {
+  color: #ababab;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.eyebrow {
+  margin: 0;
+  color: var(--primary-color);
+  font-size: 0.85rem;
+}
+
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.projectCard {
+  min-height: 270px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  border: 1px solid #30333c;
+  background: #141720;
+  transition: transform 180ms ease, border-color 180ms ease, box-shadow 180ms ease;
+}
+
+.projectCard:hover {
+  transform: translateY(-6px);
+  border-color: var(--primary-color);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.projectNumber {
+  margin: 0;
+  color: var(--primary-color);
+}
+
+.projectCard h3 {
+  margin: 2.75rem 0 0.7rem;
+  font-size: 1.5rem;
+}
+
+.projectCard > p:nth-child(3) {
+  margin: 0;
+  color: #ababab;
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.projectCard span {
+  margin-top: auto;
+  padding-top: 1.5rem;
+  color: #ded8ff;
+}
+
+.allWorkLink {
+  display: inline-block;
+  margin-top: 2rem;
+  color: #ded8ff;
+}
+
+.allWorkLink span {
+  display: inline-block;
+  transition: transform 180ms ease;
+}
+
+.allWorkLink:hover span {
+  transform: translateX(5px);
+}
+
+.contactSection {
+  text-align: center;
+}
+
+.contactSection h2 {
+  max-width: 650px;
+  margin: 0.6rem auto 1.8rem;
+}
+
+@media (max-width: 800px) {
+  .projectGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .projectCard {
+    min-height: 220px;
+  }
+}
+
+@media (max-width: 600px) {
+  .main {
+    padding: 0 5vw 4rem;
+  }
+
+  .stinger {
+    min-height: 65vh;
+    padding-top: 4rem;
+  }
+
+  .workSection,
+  .contactSection {
+    padding: 4rem 0;
+  }
 }

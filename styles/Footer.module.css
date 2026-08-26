@@ -112,6 +112,9 @@
 @media (max-width: 800px) {
     .footer {
         flex-direction: column;
+        gap: 1.5rem;
+        padding-bottom: 2rem;
+        padding-top: 2rem;
         text-align: center;
     }
 
@@ -136,6 +139,4 @@
         justify-content: center;
         order: 3;
     }
-
-    
 }

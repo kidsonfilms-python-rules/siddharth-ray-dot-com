@@ -8,7 +8,7 @@ body {
   background-color: #0D0F14;
   color: white;
   --primary-color: #622BFF;
-  overflow-x: none;
+  overflow-x: hidden;
 }
 
 a {
@@ -18,4 +18,10 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+img,
+iframe,
+video {
+  max-width: 100%;
 }

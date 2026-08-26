@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import { useState } from 'react'
 import crypto from 'crypto'
 import encryptedDOM from '../data/encryptedContactDOM'
+import PageFunction from '../components/PageFunction'
 
 export default function Contact() {
 
@@ -119,7 +120,7 @@ export default function Contact() {
   return (
     <div>
       <Head>
-        <title>Siddharth Ray | Portfolio</title>
+        <title>Siddharth Ray | Contact</title>
         <link rel="icon" href="/favicon.ico" />
 
       </Head>
@@ -128,45 +129,43 @@ export default function Contact() {
 
       <main className={styles.main}>
         <div className={styles.card}>
-          <h1>siddharth.<span style={{ color: "var(--primary-color)" }}>contact()</span></h1>
+          <header className={styles.header}>
+            <p>{'// contact'}</p>
+            <h1>siddharth<PageFunction label=".contact()" summary="Returns a secure contact form and an optional email reveal." params="message: Inquiry" returns="Response" /></h1>
+            <p className={styles.intro}>For project inquiries or other professional correspondence, send a message below.</p>
+          </header>
           <div className={styles.contactInfo}>
-            <a className={styles.buttonSmol} style={{ cursor: "pointer" }} onClick={handleShowContactInfo}>Show Contact Info</a>
-            <br />
+            <button type="button" className={styles.buttonSmol} onClick={handleShowContactInfo}>Show email address</button>
           </div>
           <form
             onSubmit={(e) => handleSubmit(e)}
             className={styles.contactForm}
           >
-            <label
-              htmlFor="fullname"
-            >
-              Full name<span className={styles.required}>*</span>
-            </label>
-            <input
-              type="text"
-              value={fullname}
-              onChange={(e) => {
-                setFullname(e.target.value);
-              }}
-              placeholder="Khonshu Moonknight"
-              name="fullname"
-            />
+            <div className={styles.fieldGrid}>
+              <div className={styles.field}>
+                <label htmlFor="fullname">Full name<span className={styles.required}>*</span></label>
+                <input
+                  id="fullname"
+                  type="text"
+                  value={fullname}
+                  onChange={(e) => setFullname(e.target.value)}
+                  placeholder="Your name"
+                  name="fullname"
+                />
+              </div>
 
-
-            <label
-              htmlFor="email"
-            >
-              E-mail<span className={styles.required}>*</span>
-            </label>
-            <input
-              type="email"
-              name="email"
-              value={email}
-              onChange={(e) => {
-                setEmail(e.target.value);
-              }}
-              placeholder="khonshu.spktor@marvel.com"
-            />
+              <div className={styles.field}>
+                <label htmlFor="email">Email<span className={styles.required}>*</span></label>
+                <input
+                  id="email"
+                  type="email"
+                  name="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
+                  placeholder="you@example.com"
+                />
+              </div>
+            </div>
 
             <input
               type="phone"
@@ -185,40 +184,32 @@ export default function Contact() {
             />
 
 
-            <label
-              htmlFor="subject"
-            >
-              Subject<span className={styles.required}>*</span>
-            </label>
-            <input
-              type="text"
-              name="subject"
-              value={subject}
-              onChange={(e) => {
-                setSubject(e.target.value);
-              }}
-              autoComplete="off"
-              placeholder="Proposal..."
-            />
+            <div className={styles.field}>
+              <label htmlFor="subject">Subject<span className={styles.required}>*</span></label>
+              <input
+                id="subject"
+                type="text"
+                name="subject"
+                value={subject}
+                onChange={(e) => setSubject(e.target.value)}
+                autoComplete="off"
+                placeholder="How can I help?"
+              />
+            </div>
 
-            <label
-              htmlFor="message"
-            >
-              Message<span className={styles.required}>*</span>
-            </label>
-            <textarea
-              name="message"
-              value={message}
-              onChange={(e) => {
-                setMessage(e.target.value);
-              }}
-              maxLength={1020}
-              placeholder="Will you protect the travelers of the night..."
-            ></textarea>
+            <div className={styles.field}>
+              <label htmlFor="message">Message<span className={styles.required}>*</span></label>
+              <textarea
+                id="message"
+                name="message"
+                value={message}
+                onChange={(e) => setMessage(e.target.value)}
+                maxLength={1020}
+                placeholder="Tell me a little about your project or question."
+              ></textarea>
+            </div>
             
-            <p className={styles.learnWhy} style={{ fontSize: 14 }}>Maximum 1020 characters, Markdown Enabled.
-            {/* <a>Learn Why.</a> */}
-            </p>
+            <p className={styles.learnWhy}>Maximum 1020 characters.</p>
 
             <div>
               <button

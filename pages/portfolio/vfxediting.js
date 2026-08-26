@@ -4,59 +4,43 @@ import { NavBarPortfolio } from '../../components/NavBar'
 
 export default function VFXEditingPortfolioPage() {
   return (
-    <div style={{ backgroundImage: "linear-gradient(45deg,#ab58e2,#7326f0)" }} className={styles.body}>
+    <div style={{ backgroundImage: 'linear-gradient(135deg, #0d0f14, #171225)' }} className={styles.body}>
       <Head>
-        <title>Siddharth Ray | VFX & Editing | Portfolio</title>
+        <title>Siddharth Ray | VFX &amp; Editing | Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <NavBarPortfolio page="about" />
+      <NavBarPortfolio page="portfolio" />
 
       <main className={styles.main}>
-        <div className={styles.leftBox}>
+        <section className={styles.leftBox}>
+          <p className={styles.kicker}>FILM · COMPOSITING · EDITING</p>
           <div className={styles.titleBox}>
-            <h1 className={styles.vfxediting}>VFX & Editing</h1>
-            {/* <a href="https://djflame.tech/" style={{fontWeight: 600}}>visit website</a> */}
+            <h1 className={styles.vfxediting}>VFX &amp; Editing</h1>
           </div>
-          <p>I make VFX shots and edited videos that usually involve some type of CGI or Image Manipulation. These videos can be found in various YouTube Channels, but here I listed my favorites!</p>
-
-          <div className={styles.associatedExperiences}>
-          </div>
+          <p className={styles.lede}>Selected visual effects, compositing, and editing work across short-form film and digital media.</p>
 
           <div className={styles.skills}>
-            <h2>Skills</h2>
-            <p>VFX ● Editing ● Davinci Resolve ● Blender ● Premier Pro ● After Effects ● Midjourney</p>
+            <h2>Tools &amp; disciplines</h2>
+            <p>DaVinci Resolve · Blender · Premiere Pro · After Effects · Image Manipulation</p>
           </div>
+        </section>
 
-          <div className={styles.additonalLinks}>
-            {/* <h2>Additional Links</h2>
-            <ul>
-              <li><a href='https://djflame.tech/'>Website</a></li>
-              <li><a href='https://djflame.tech/download'>Desktop App Download</a></li>
-              <li><a href=''>App Store (iOS Mobile App)</a></li>
-            </ul> */}
-          </div>
-        </div>
-
-        <div className={styles.rightBox}>
-          <div>
+        <aside className={styles.rightBox}>
+          <div className={styles.mediaCard}>
             <h1>Sci-fi Hallway</h1>
-            <img src="https://media.discordapp.net/attachments/981336069540827176/981336469757124648/hallway_cycles_i7.png" width={250}/>
+            <img src="/assets/hallway_cycles_i7.webp" width={250} alt="Sci-fi hallway visual effects shot" />
           </div>
-          <div>
+          <div className={styles.mediaCard}>
             <h1>MEGH (2021) Opening Titles</h1>
-            {/* <img src="http://via.placeholder.com/640x360" width={250}/> */}
             <iframe src="https://www.youtube.com/embed/usT6LtGhnPs" width="250" height="140" title="MEGH (2021) Teaser | Utsav Production" frameBorder="0" allowFullScreen></iframe>
           </div>
-          <div>
+          <div className={styles.mediaCard}>
             <h1>CGI Tiger</h1>
-            <img src="/assets/vfxediting-portfoliopage-tiger.png" width={250}/>
+            <img src="/assets/vfxediting-portfoliopage-tiger.png" width={250} alt="CGI tiger visual effects shot" />
           </div>
-        </div>
-
+        </aside>
       </main>
-
-      {/* <Footer/> */}
     </div>
   )
 }

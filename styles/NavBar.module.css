@@ -19,6 +19,18 @@
     transition: all 500ms ease-in-out;
 }
 
+.portfolioNavbar {
+    background-color: transparent;
+    backdrop-filter: none;
+    padding-left: 5vw;
+}
+
+.portfolioScrolled {
+    background-color: rgba(13, 15, 20, 0.82);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
 .logo {
     color: var(--primary-color);
     font-size: 20px;
@@ -197,5 +209,39 @@
     .socials .icon {
         font-size: 35px;
         margin-bottom: 10px;
+    }
+
+    .navbar.portfolioNavbar {
+        align-items: center;
+        flex-direction: row;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .portfolioNavbar .navContainer {
+        align-items: center;
+        background: transparent;
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        opacity: 1;
+        position: static;
+        visibility: visible;
+        width: auto;
+    }
+
+    .portfolioNavbar .socials {
+        flex-direction: row;
+        margin: 20px 0;
+    }
+
+    .portfolioNavbar .socials li {
+        font-size: inherit;
+        margin: 0 0 0 1rem;
+    }
+
+    .portfolioNavbar .socials .icon {
+        font-size: 20px;
+        margin-bottom: 0;
     }
 }

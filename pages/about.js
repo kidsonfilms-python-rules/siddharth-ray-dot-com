@@ -6,6 +6,7 @@ import ExperienceBlock from '../components/experienceBlock'
 import {faDownload} from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '@fortawesome/fontawesome-svg-core/styles.css'
+import PageFunction from '../components/PageFunction'
 
 export default function About() {
   return (
@@ -19,19 +20,27 @@ export default function About() {
 
       <main className={styles.main}>
         <div className={styles.stinger}>
-          <h1 className={styles.title}>siddharth<span className={styles.primaryColorSpan}>.about()</span></h1>
+          <h1 className={styles.title}>siddharth<PageFunction label=".about()" summary="Returns a professional profile, education, and selected experience." params="visitor: Visitor" returns="Profile" /></h1>
           <div className={styles.buttonRow}>
             <a href='/download/Siddharth Ray Resume.pdf' target={"_blank"}><FontAwesomeIcon icon={faDownload} className={styles.icon} /> download PDF</a>
             <p>●  </p>
-            <p>last updated August 9th 2022</p>
+            <p>last updated August 25th 2026</p>
           </div>
           <p>
-            I am a Software Developer based in Folsom, California and a freshman at Vista del Lago High School. On the side, I do video production, visual effects, and play the cello as hobbies!
+            I&apos;m an undergraduate Electrical Engineering and Computer Sciences student at UC Berkeley, graduating in May 2030, and a software developer based in Folsom, California. I also work in video production and visual effects.
           </p>
           <div className={styles.resumeRow}>
+            <div className={styles.education}>
+              <h2>Education</h2>
+              <ExperienceBlock timeframe="2026 - 2030"
+              companyName="University of California, Berkeley"
+              location="Berkeley, CA"
+              jobTitle="B.S. in Electrical Engineering and Computer Sciences"
+              description="Expected graduation: May 2030" />
+            </div>
             <div className={styles.experience}>
               <h2>Experience</h2>
-              <ExperienceBlock timeframe="Dec 2019 - Now" 
+              <ExperienceBlock timeframe="Dec 2019 - Aug 2024"
               companyName="DJFlame" 
               location="Folsom, CA" 
               jobTitle="Founder, CEO" 
@@ -42,28 +51,13 @@ export default function About() {
               jobTitle="UTSAV Tech and Media Committee Lead" 
               description={(<>I served on the Tech and Media committee at UTSAV for 4 years before stepping down. During these 4 years, I rennovated their website (<a href='https://utsavsac.org' target={"_blank"} rel="noreferrer">utsavsac.org</a>), upgraded their workflow to fit the current times, and developed a Event Managing App System which was later sought for by other local organizations. The Event Managing App, called &quot;Utsav Events&quot; was made with a Flutter front-end and a BaaS called Firebase, a Google service.</>)} />
             </div>
-            <div className={styles.education}>
-              <h2>Education</h2>
-              <ExperienceBlock timeframe="2022 - 2026" 
-              companyName="Vista del Lago High School" 
-              location="High School Diploma"
-              jobTitle="Sophomore" />
-              {/* <ExperienceBlock timeframe="2019 - 2022" 
-              companyName="Folsom Middle School" 
-              jobTitle="GPA: 4.0" /> */}
-            </div>
             <div className={styles.competitions}>
-              <h2>Competitions</h2>
-              <ExperienceBlock timeframe="2021 – now" 
+              <h2>Previous involvement</h2>
+              <ExperienceBlock timeframe="2021 – May 2026"
               companyName="FIRST® Tech Challenge"
               location="Team Juice 16236"
               jobTitle="Software Division Lead, Vice Captain" 
               description="We built a robot using water-jet cut aluminum parts and programmed the robot using Java and tools like TensorFlow. Went to local and international companies to get sponsorships and made publicly used and open-source tools for the FTC community. 2022 Norcal Finalists, 2023 Norcal Champions, 2023 Worlds Championships Division Finalists"/>
-              <ExperienceBlock timeframe="2016 – 2019" 
-              companyName="FIRST® Lego League"
-              location="Team Golden State Builders 30208"
-              jobTitle="Team Member" 
-              description="We built a LEGO-based robot. In our last year won Qualifiers and made 6th place in NorCal Championships."/>
             </div>
           </div>
         </div>

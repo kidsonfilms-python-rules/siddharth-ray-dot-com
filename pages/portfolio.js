@@ -1,8 +1,9 @@
 import Head from 'next/head'
 import styles from '../styles/Portfolio.module.css'
-import {NavBar} from '../components/NavBar'
+import { NavBar } from '../components/NavBar'
 import Footer from '../components/Footer'
-import {PortfolioCard, PortfolioCardShowMore} from '../components/PortfolioCard'
+import { PortfolioCard } from '../components/PortfolioCard'
+import PageFunction from '../components/PageFunction'
 
 export default function Portfolio() {
   return (
@@ -15,46 +16,70 @@ export default function Portfolio() {
       <NavBar page="portfolio" />
 
       <main className={styles.main}>
+        <h1 className={styles.title}>siddharth<PageFunction label=".portfolio()" summary="Returns selected projects across software, computer vision, and visual media." params="filter: ProjectType" returns="Project[]" /></h1>
+        <p className={styles.intro}>Selected work across software, computer vision, robotics, and visual media.</p>
+        <p className={styles.sectionLabel}>{'// selected projects'}</p>
+
         <div className={styles.cards}>
-          <h1 className={styles.title}>siddharth<span className={styles.primaryColorSpan}>.portfolio()</span></h1>
           <PortfolioCard
-            title={(<span className={styles.djflameSpan}>DJFlame</span>)}
-            date="December 2019 - Present"
-            description="DJFlame is a group-streaming and AI-based song mixing and manipulation application. DJFlame uses Tensorflow-based AI song selection and a Guest Companion App for Guest Interaction." 
+            number="01"
+            title={<>Project <span style={{ color: '#e76666' }}>REDACTED</span></>}
+            date="Computer Vision · FTC Analytics · Current"
+            description="A lightweight video-analysis tool that turns FTC match footage into clear robot movement and shot insights for faster scouting and review."
+            redirect="/portfolio/redacted"
+            thumbnailLabel="JuiceAutoScout"
+          />
+          <PortfolioCard
+            number="02"
+            title={<>Convention/Event <span style={{ color: '#9fc4b0' }}>Management System</span></>}
+            date="Event Operations · Mobile Platform"
+            description="A unified event-operations platform for access control, POS, meals, schedules, announcements, and venue navigation."
+            redirect="/portfolio/eventx"
+            thumbnailLabel="EventX"
+          />
+          <PortfolioCard
+            number="03"
+            title={<span style={{ color: '#ffb55b' }}>Juice 16236</span>}
+            date="Robotics · Software"
+            description="FTC robot software led and largely developed for Team 16236, alongside competitive robotics work and supporting tools."
+            redirect="/portfolio/juice"
+            thumbnail="/assets/juice-portfolio.jpg"
+          />
+          <PortfolioCard
+            number="04"
+            title={<span style={{ color: '#ffb2de' }}>DJFlame</span>}
+            date="Music Technology · Product Development"
+            description="A collaborative music platform built around AI-assisted song selection and real-time guest participation."
+            redirect="/portfolio/djflame"
             thumbnail="https://miro.medium.com/max/1400/1*JMe3z14eW_PWOaSwHSGCtA.png"
-            redirect="https://djflame.tech"/>
-
+          />
           <PortfolioCard
-            title={(<><span style={{ color: '#FF9626', fontWeight: "bold" }}>Juice 16236</span></>)}
-            date="August 2021 - Present"
-            description="Juice 16236 is a high school robotics team that competes in FIRST Tech Challenge." 
-            thumbnail="/assets/juice-portfolio.png"
-            redirect="https://juicerobotics.org"/>
-            
+            number="05"
+            title={<>Ultra-Low Profile Backlight <span style={{ color: '#b8c7ff' }}>SmartFrame</span></>}
+            date="Embedded Systems · Hardware Design"
+            description="A 0.75-inch wall-mounted backlight system designed to present silk Turkish rugs with clean, controllable illumination."
+            redirect="/portfolio/silk-road"
+            thumbnail="/assets/silk-road-final.jpeg"
+          />
           <PortfolioCard
-            title={(<><span style={{ color: '#5865F2', fontWeight: "bold" }}>Discord</span> Bots</>)}
-            date="2020 - 2022"
-            description="Discord is a VoIP Chat Service which has a Bot API to help enchance the experiance of chats." 
+            number="06"
+            title={<> <span style={{ color: '#b8c7ff' }}>Discord</span> Bots</>}
+            date="Community Tools · Archive"
+            description="Moderation, community, and analytics tools for Discord servers."
+            redirect="/portfolio/discordbots"
             thumbnail="https://image.shutterstock.com/image-photo/dumai-indonesia-09-november-2021-260nw-2071853249.jpg"
-            redirect="/portfolio/discordbots"/>
-
+          />
           <PortfolioCard
-            title={(<><span style={{ color: '#8b0d19', fontWeight: "bold" }}>UTSAV Inc.</span> Website and Apps</>)}
-            date="Circa 2015 - 2020"
-            description="Utsav is a nonprofit (a 501(c)(3) Nonprofit Organization), charitable and cultural organization involved in promoting Indian culture in the Sacramento region." 
-            thumbnail="https://pbs.twimg.com/media/FR6y5PWWQAI0CGj.jpg"
-            redirect="https://utsavsac.org"/>
-
-          <PortfolioCard
-            title={(<><span className={styles.vfxSpan}>VFX</span> and <span className={styles.vfxSpan}>Editing</span></>)}
-            date="2015 - Present"
-            description="Editing is a art where you combine and tweak video clips. Visual Effects (VFX) is a form of art where the artist makes completly digital images which either are combined in real videos/photos or are standalone." 
-            thumbnail="https://media.discordapp.net/attachments/981336069540827176/981336469757124648/hallway_cycles_i7.png"
-            redirect="/portfolio/vfxediting"/>
-
-            <PortfolioCardShowMore/>
-
+            number="07"
+            title={<> <span style={{ color: '#ded2ff' }}>VFX</span> &amp; Editing</>}
+            date="Film · Compositing · Editing"
+            description="Selected visual effects, compositing, and editing work for film and digital media."
+            redirect="/portfolio/vfxediting"
+            thumbnail="/assets/hallway_cycles_i7.webp"
+          />
         </div>
+
+        <a className={styles.githubLink} href="https://github.com/kidsonfilms-python-rules" target="_blank" rel="noreferrer">More work on GitHub ↗</a>
       </main>
 
       <Footer />

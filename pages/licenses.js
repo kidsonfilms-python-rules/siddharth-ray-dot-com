@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import styles from '../styles/Credits.module.css'
+import styles from '../styles/Licenses.module.css'
 import { NavBar } from '../components/NavBar'
 import Footer from '../components/Footer'
 import React from 'react'
@@ -15,11 +15,14 @@ export default function Licenses() {
 
             <NavBar />
 
-            <main className={styles.mainLicenses}>
-                <h1>Licenses</h1>
-                <p>Licenses for OSS used in siddharthray.com are reproduced below</p>
+            <main className={styles.main}>
+                <header className={styles.header}>
+                    <p>{'// third-party notices'}</p>
+                    <h1>licenses<span>()</span></h1>
+                    <p>Open-source licenses used by siddharthray.com are reproduced below.</p>
+                </header>
 
-                <div>
+                <div className={styles.licenseContent}>
 
                     <hr />
                     <p>The following software may be included in this product: @fortawesome/fontawesome-common-types. A copy of the source code may be downloaded from <a href="https://www.npmjs.com/package/@fortawesome/fontawesome-common-types" target="_blank" rel="noreferrer">https://www.npmjs.com/package/@fortawesome/fontawesome-common-types</a>. This software contains the following license and notice below:</p>

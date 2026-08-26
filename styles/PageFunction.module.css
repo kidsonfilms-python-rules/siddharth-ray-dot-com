@@ -1,0 +1,50 @@
+.function {
+  color: var(--primary-color);
+  cursor: help;
+  display: inline-block;
+  outline: none;
+  text-decoration: none;
+}
+
+.function:hover,
+.function:focus {
+  color: #c9b6ff;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.16em;
+}
+
+.function:focus-visible {
+  outline: 1px solid currentColor;
+  outline-offset: 3px;
+}
+
+.tooltip {
+  background: #17191f;
+  border: 1px solid #4c4f59;
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.3);
+  color: #d8d9df;
+  display: grid;
+  font-family: 'Source Code Pro', monospace;
+  font-size: 0.75rem;
+  font-weight: 400;
+  gap: 0.45rem;
+  line-height: 1.45;
+  max-width: min(255px, calc(100vw - 24px));
+  padding: 0.8rem 0.9rem;
+  pointer-events: none;
+  position: fixed;
+  text-align: left;
+  z-index: 2000;
+}
+
+.tooltip b {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.tooltip i {
+  color: #bdaeff;
+  font-style: normal;
+}

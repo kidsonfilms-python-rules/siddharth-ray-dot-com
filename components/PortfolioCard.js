@@ -1,36 +1,20 @@
 import styles from '../styles/PortfolioCard.module.css'
 
-
-export function PortfolioCard(props) {
-    const thumnail = props.thumbnail
-    const title = props.title
-    const date = props.date
-    const description = props.description
-    const redirect = props.redirect
-
-    return (
-        <div className={styles.card} 
-        onClick={() => window.location = redirect}
-        >
-            <div className={styles.imgWrapper}>
-                <img src={thumnail}></img>
-            </div>
-            <div className={styles.bodyContent}>
-                <h1>{title}</h1>
-                <h2>{date}</h2>
-                <p>{description}</p>
-            </div>
-        </div>
-    )
-}
-
-export function PortfolioCardShowMore() {
-    return (
-        <div className={styles.card} onClick={() => window.location ="https://github.com/kidsonfilms-python-rules/"}>
-            <div className={styles.bodyContent}>
-                <h1>See More</h1>
-                <h2>Click here to check out my GitHub</h2>
-            </div>
-        </div>
-    )
+export function PortfolioCard({ title, date, description, redirect, number, thumbnail, thumbnailLabel }) {
+  return (
+    <a className={styles.card} href={redirect}>
+      <span className={styles.number}>{number}</span>
+      {thumbnail ? (
+        <img className={styles.thumbnail} src={thumbnail} alt="" />
+      ) : (
+        <div className={styles.placeholder}>{thumbnailLabel || 'Project preview'}</div>
+      )}
+      <div className={styles.projectInfo}>
+        <h2>{title}</h2>
+        <p className={styles.meta}>{date}</p>
+        <p className={styles.description}>{description}</p>
+      </div>
+      <span className={styles.arrow} aria-hidden="true">↗</span>
+    </a>
+  )
 }

@@ -3,7 +3,7 @@ import { faGithub, faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faAngleLeft } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import '@fortawesome/fontawesome-svg-core/styles.css'
-import { useRef, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import Link from 'next/link'
 
 export function NavBar(props) {
@@ -60,11 +60,20 @@ export function NavBar(props) {
 
 export function NavBarPortfolio(props) {
     const [menuState, setMenuState] = useState();
+    const [isScrolled, setIsScrolled] = useState(false);
     const navContent = useRef();
     const page = props.page
 
+    useEffect(() => {
+        const handleScroll = () => setIsScrolled(window.scrollY > 16);
+
+        handleScroll();
+        window.addEventListener('scroll', handleScroll, { passive: true });
+        return () => window.removeEventListener('scroll', handleScroll);
+    }, []);
+
     return (
-        <nav className={styles.navbar} style={{ paddingLeft: "5vw", background: "transparent", backdropFilter: "none" }}>
+        <nav className={`${styles.navbar} ${styles.portfolioNavbar} ${isScrolled ? styles.portfolioScrolled : ''}`}>
             <div className={styles.logoContainer} style={{ cursor: "pointer" }}>
                 <Link href='/portfolio'><FontAwesomeIcon icon={faAngleLeft} className={styles.icon} /></Link>
                 <Link href='/portfolio'><p className={styles.logo} style={{ color: "white" }}>back</p></Link>

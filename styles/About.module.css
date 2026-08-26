@@ -26,14 +26,14 @@
   flex-grow: 1;
 }
 
-.title span {
+.title > span {
   color: var(--primary-color);
   text-decoration: none;
 }
 
-.title span:hover,
-.title span:focus,
-.title span:active {
+.title > span:hover,
+.title > span:focus,
+.title > span:active {
   text-decoration: underline;
 }
 
