@@ -335,10 +335,9 @@
 }
 
 .screenshotFigure img {
-  aspect-ratio: 0.62;
   border: 1px solid #3a3d46;
   display: block;
-  object-fit: cover;
+  height: auto;
   width: 100%;
 }
 
@@ -397,6 +396,7 @@
 }
 
 .redactedMark::after {
+  animation: redact-reveal 700ms cubic-bezier(0.22, 1, 0.36, 1) 180ms both;
   background: #0d0f14;
   content: '';
   height: 0.38em;
@@ -405,6 +405,11 @@
   right: -0.08em;
   top: 50%;
   transform: translateY(-50%);
+}
+
+@keyframes redact-reveal {
+  from { transform: translateY(-50%) scaleX(0); transform-origin: left; }
+  to { transform: translateY(-50%) scaleX(1); transform-origin: left; }
 }
 
 .redactedMark::before {
@@ -435,5 +440,8 @@
   .detailCard { grid-template-columns: 1fr; }
   .screenshotGrid { grid-template-columns: 1fr; }
   .screenshotSlot { aspect-ratio: 1.5; }
-  .screenshotFigure img { aspect-ratio: 1.5; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .redactedMark::after { animation: none; }
 }

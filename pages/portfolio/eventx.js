@@ -41,9 +41,18 @@ export default function EventXPortfolioPage() {
           <section className={styles.screenshotSection} aria-labelledby="eventx-screenshots">
             <h2 id="eventx-screenshots">App screenshots</h2>
             <div className={styles.screenshotGrid}>
-              <div className={styles.screenshotSlot}><span>Guest app</span><small>Tickets, schedule, meals, and maps</small></div>
-              <div className={styles.screenshotSlot}><span>Check-in + POS</span><small>Access control and purchases</small></div>
-              <div className={styles.screenshotSlot}><span>Management app</span><small>Role-based event operations</small></div>
+              <figure className={styles.screenshotFigure}>
+                <img src="/assets/DELTA iPhone 14 - Tickets Page.png" alt="EventX guest ticket screen" />
+                <figcaption>Guest tickets</figcaption>
+              </figure>
+              <figure className={styles.screenshotFigure}>
+                <img src="/assets/DELTA iPhone 14 - Map Page.png" alt="EventX interactive venue map" />
+                <figcaption>Interactive map</figcaption>
+              </figure>
+              <figure className={styles.screenshotFigure}>
+                <img src="/assets/DELTA Phone 14 - Admin Home.png" alt="EventX administrator dashboard" />
+                <figcaption>Admin home</figcaption>
+              </figure>
             </div>
           </section>
 
